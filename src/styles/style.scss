@@ -5,7 +5,8 @@
 // @import 'responsive';
 
 
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -44,10 +45,16 @@ main{
     }
 }
 
+.copyright-desktop{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 50%;
+    padding: 2.5%;
+    font-size:2em
+}
 
-
-
-// media Q :
 
 [class*="col-"] {
     width: 100%;
@@ -67,6 +74,9 @@ main{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    .copyright{bottom: 12%}
+    .footer-icons{font-size: 11vw;}
+    footer{height: 12%}
   }
   @media only screen and (min-width: 769px) {
     /* For desktop: */
@@ -82,8 +92,15 @@ main{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    footer{height: 11%; }
+    footer ul{justify-content: flex-end; padding: 0.65em 1vw;}
+    .footer-icons{font-size:4vw; align-items: flex-end;}
+    .copyright{display: none}
+    .copyright-desktop{display: block}
     
 }
+
+
 
 
 
