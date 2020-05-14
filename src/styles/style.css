@@ -25,11 +25,12 @@ body {
 }
 
 .topnav .logo {
-  padding: 10%;
+  padding: 9% 10%;
+  font-size: 2em;
 }
 
 .topnav .fa-bars {
-  padding: 10%;
+  padding: 9% 10%;
   position: absolute;
   top: 0.1px;
   right: 0.1px;
