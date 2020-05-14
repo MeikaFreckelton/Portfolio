@@ -1,0 +1,106 @@
+@import url(//db.onlinewebfonts.com/c/2c6559d94a7fa38ce73eaa827ca22ce2?family=Lust+Script+Display);
+h1 {
+  font-family: lust-script, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+}
+
+body .headerh1 {
+  position: fixed;
+  top: 0;
+  background-color: royalblue;
+  width: 100%;
+  height: 15%;
+}
+
+body .headerh1 h1 {
+  text-align: center;
+  padding: 8%;
+}
+
+body main {
+  background-color: hotpink;
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .contactme {
+  padding: 5%;
+}
+
+body main .message-forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .message-forms input[type=text], body main .message-forms select, body main .message-forms textarea {
+  width: 90%;
+  margin-top: 1%;
+  border: none;
+  padding: 1%;
+  height: 2.5em;
+}
+
+body main .message-forms textarea {
+  height: 15em;
+}
+
+body .details {
+  background-color: indigo;
+  position: absolute;
+  top: 65%;
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .details a {
+  text-decoration: none;
+  color: black;
+}
+
+body footer {
+  background-color: aqua;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 13%;
+}
+/*# sourceMappingURL=style.css.map */
