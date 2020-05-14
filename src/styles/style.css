@@ -16,7 +16,64 @@ body {
   max-width: 100%;
 }
 
-body .headerh1 {
+.topnav {
+  overflow: hidden;
+  background-color: lavender;
+  height: 15%;
+  position: fixed;
+  width: 100%;
+}
+
+.topnav .logo {
+  padding: 10%;
+}
+
+.topnav .fa-bars {
+  padding: 10%;
+  position: absolute;
+  top: 0.1px;
+  right: 0.1px;
+}
+
+.topnav .responsive a {
+  float: none;
+  display: none;
+  text-align: left;
+}
+
+.topnav .nav-items {
+  background-color: lightcoral;
+  width: 100%;
+  padding: 3%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnav a .icon {
+  float: right;
+  display: block;
+  padding: 10%;
+}
+
+.topnav a:hover {
+  background-color: lawngreen;
+}
+
+.topnav a .active {
+  background-color: lightblue;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.headerh1 {
   position: fixed;
   top: 0;
   background-color: royalblue;
@@ -24,12 +81,12 @@ body .headerh1 {
   height: 15%;
 }
 
-body .headerh1 h1 {
+.headerh1 h1 {
   text-align: center;
   padding: 8%;
 }
 
-body main {
+main {
   background-color: hotpink;
   position: absolute;
   top: 15%;
@@ -50,11 +107,11 @@ body main {
           align-items: center;
 }
 
-body main .contactme {
+main .contactme {
   padding: 5%;
 }
 
-body main .message-forms {
+main .message-forms {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +121,7 @@ body main .message-forms {
           flex-direction: column;
 }
 
-body main .message-forms input[type=text], body main .message-forms select, body main .message-forms textarea {
+main .message-forms input[type=text], main .message-forms select, main .message-forms textarea {
   width: 90%;
   margin-top: 1%;
   border: none;
@@ -72,11 +129,11 @@ body main .message-forms input[type=text], body main .message-forms select, body
   height: 2.5em;
 }
 
-body main .message-forms textarea {
+main .message-forms textarea {
   height: 15em;
 }
 
-body .details {
+.details {
   background-color: indigo;
   position: absolute;
   top: 65%;
@@ -91,16 +148,123 @@ body .details {
           flex-direction: column;
 }
 
-body .details a {
+.details a {
   text-decoration: none;
   color: black;
 }
 
-body footer {
+footer {
   background-color: aqua;
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 13%;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

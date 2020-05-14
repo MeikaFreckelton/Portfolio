@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Projects</title>
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <a href="#" class="active logo">LOGO</a>
+        <a href="#" class="nav-items">About</a>
+        <a href="#" class="nav-items">Projects</a>
+        <a href="#" class="nav-items">Skills</a>
+        <a href="#" class="nav-items">Blog</a>
+        <a href="#" class="nav-items">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </nav>
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+    
+</body>
+</html>
+
+
+<!-- on this page:
+1. header with nav bar - close and open on mobile and tablet
+2. heading: "PROJECTS"
+3. project links - pick projects to show
+4. add skills to this page? -  -->
