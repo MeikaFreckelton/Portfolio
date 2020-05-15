@@ -36,7 +36,7 @@ p {
 
 .navbar {
   font-size: 4vw;
-  background-color: mediumpurple;
+  background-color: white;
   border: none;
   overflow: hidden;
   position: fixed;
@@ -300,6 +300,9 @@ p {
   }
   #profile img {
     width: 65%;
+  }
+  .projects img {
+    width: 50vw;
   }
 }
 
