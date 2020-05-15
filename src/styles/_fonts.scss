@@ -4,10 +4,85 @@
 
 
 @import url(//db.onlinewebfonts.com/c/2c6559d94a7fa38ce73eaa827ca22ce2?family=Lust+Script+Display);
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Comfortaa:wght@300;400;500;600;700&family=Didact+Gothic&family=Dosis:wght@200;300;400;500;600;700;800&family=Maven+Pro:wght@400;500&family=Poppins:wght@100;200;300;400;500;600&family=Quicksand:wght@300;400;500;515;600;700&family=Raleway:wght@100;200;300;400;500&family=Teko:wght@300;400;500&display=swap');
+
+
+
+// $heading-font: 'Dosis', sans-serif;
+
+
+// $body-font{
+//     font-family:
+// }
+
 
 h1{
     font-family: lust-script, sans-serif;
+    // font-family: pika-ultra-script, sans-serif;
     font-style: normal;
     font-weight: 400;
 
 }
+
+h3{
+    padding: 10% 0 7% 0;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+   
+
+
+}
+
+
+h3, h4, p{
+    width: 100%;
+    
+    font-family: sweet-sans-pro, sans-serif;
+
+}
+
+h4{
+    padding: 6% 0 2% 9%;
+    font-size: 1.75em;
+    
+    
+}
+
+p{
+    padding: 1% 9%;
+    font-size: 1.2em;
+    line-height: 1.35em;
+    // text-align: center;
+
+}
+
+
+
+// font-family: 'ABeeZee', sans-serif;
+// font-family: 'Comfortaa', cursive;
+// font-family: 'Didact Gothic', sans-serif;
+// font-family: 'Dosis', sans-serif;
+// font-family: 'Maven Pro', sans-serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Quicksand', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Teko', sans-serif; //no
+
+
+// font-family: proxima-nova, sans-serif;
+// font-family: proxima-nova-condensed, sans-serif;
+// font-family: proxima-nova-extra-condensed, sans-serif;
+// font-family: brevia, sans-serif;
+// font-family: benton-sans, sans-serif;
+// font-family: benton-sans-compressed, sans-serif;
+// font-family: benton-sans-condensed, sans-serif;
+
+// font-family: tarzana-narrow, sans-serif;
+// font-family: tarzana-wide, sans-serif;
+// font-family: triplex-cond-sans, sans-serif;
+
+// font-family: pika-ultra-script, sans-serif;
+// font-family: degular, sans-serif;
+// font-family: degular-display, sans-serif;
+// sweet-sans-pro, sans-serif;
