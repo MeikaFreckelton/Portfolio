@@ -13,12 +13,13 @@
 .navbar{
     font-size: 4vw;
     background-color: mediumpurple;
-    padding-bottom: 10px;
+    
     border: none;
     overflow: hidden;
     position: fixed;
     top: 0%;
     width: 100%;
+    z-index: 99 ;
     .desktop-logo{
         display: none;
     }
