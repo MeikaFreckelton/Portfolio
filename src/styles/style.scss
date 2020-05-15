@@ -126,8 +126,9 @@ footer{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-  }
-  @media only screen and (min-width: 769px) {
+}
+
+@media only screen and (min-width: 769px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -141,6 +142,8 @@ footer{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    .nav-items{display: flex; flex-direction: row;}
+    .topnav.logo {padding: 0;}
     
 }
 
