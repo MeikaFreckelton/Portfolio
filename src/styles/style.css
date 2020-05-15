@@ -216,8 +216,8 @@ main {
   bottom: 0;
   height: 100%;
   width: 50%;
-  padding: 2%;
-  font-size: 2em;
+  padding: 1.6%;
+  font-size: 1.25em;
 }
 
 [class*="col-"] {
@@ -321,10 +321,12 @@ main {
     padding: 0.65em 1vw;
   }
   .footer-icons {
-    font-size: 4vw;
+    font-size: 3.5vw;
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    position: relative;
+    bottom: 29%;
   }
   .copyright {
     display: none;
