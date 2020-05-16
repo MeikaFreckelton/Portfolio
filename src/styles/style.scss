@@ -2,6 +2,7 @@
 @import 'menu';
 @import 'about';
 @import 'projects';
+@import 'blog';
 
 @import 'responsive';
 
@@ -114,3 +115,8 @@ footer{
 
 
 
+.logo h1{
+    &:hover{
+        color: #FFC2C2;
+    }
+}

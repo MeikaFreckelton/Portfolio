@@ -13,14 +13,16 @@
 .navbar{
     font-size: 4vw;
     background-color: white;
-    // opacity: 0.75;
+    
     
     border: none;
     overflow: hidden;
     position: fixed;
     top: 0%;
     width: 100%;
-    z-index: 99 ;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.75);
+    
     .desktop-logo{
         display: none;
     }
@@ -33,7 +35,7 @@
     
     .nav-links, .logo{
         text-decoration: none;
-        color: pink;
+        color: black;
     }
 
     .logo h1{
@@ -51,7 +53,7 @@
             padding: 2%;
             width: 100%;
             text-align: center;
-            &:hover{background-color: mediumturquoise;}
+            &:hover{background-color:rgba(255,194,194,0.6)}
         }
         
 
@@ -69,7 +71,11 @@
         top: 0;
         padding: 6vw;
         font-size: 6vw;
-        color: pink;
+        color: black;
+        &:hover{
+            color: #FFC2C2;
+        }
+        
     }
 
 
