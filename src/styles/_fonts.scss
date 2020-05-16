@@ -16,22 +16,42 @@
 // }
 
 
+
+
+
 h1{
-    font-family: lust-script, sans-serif;
+    font-family: lust-script-display, sans-serif;
     // font-family: pika-ultra-script, sans-serif;
     font-style: normal;
     font-weight: 400;
+    color: black;
+    &:hover{
+        color: FFC2C2;
+    }
 
 }
 
 h3{
-    padding: 10% 0 7% 0;
+    padding: 7% 0 7% 0;
     font-size: 2em;
     color: black;
     text-align: center;
+    &:hover{
+        color: #FFC2C2;
+    }
    
 
 
+}
+
+.blog-parts {
+    h3{
+        position: absolute;
+        top: 15%;
+        font-size: 2em;
+        z-index: 80;
+        padding: 0 0 7% 0;
+    }
 }
 
 

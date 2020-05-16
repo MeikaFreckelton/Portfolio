@@ -30,11 +30,16 @@
     }
     h3{
         font-size: 4em;
+        padding: 12% 0 7% 0;
     }
     h4{
         font-size: 2.5em;
     }
 
+
+    .centered{
+        font-size: 4em;
+    }
     
 }
 
@@ -98,6 +103,15 @@
         }
     }
 
+
+    // projects
+
+    .projects{
+        img{
+            width: 50vw;
+        }
+    }
+    
 
     
 }

@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/86a9ff069d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/isw3mwx.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+        }
+    </script>
     <title>About me</title>
 </head>
 <body>
+    
+    <!-- responsive menu and header -->
     <div class="mobile-container">
         <nav class="navbar" id="mytopnav">
             <a href="#" class="logo mobile-logo"><h1>Meika Freckelton</h1></a>
@@ -36,23 +49,36 @@
                 </li>
             </ul>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            
+                <i class="fa fa-bars"></i></a>
         </nav>
-
     </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-            x.style.display = "none";
-            } else {
-            x.style.display = "block";
-            }
-        }
-    </script>
+
+    <div class="about-me" id="profile">
+        <h3>About Me</h3>
+            
+           <div class="row container">
+            <div class="col-4">
+                <img src="img/profile.jpg" class="pfp" alt="Profile">
+            </div>
+            <div class="col-8">
+                <h4>> My Story</h4>
+                <p class="about-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officiis itaque eius, delectus minima enim ratione deleniti 
+                    facilis alias ut aperiam. Ex distinctio sint pariatur deserunt aut 
+                    voluptates rem nobis architecto.
+                </p>
+            </div>
+            
+                <h4>> My Interests</h4>
+                <div class="interests">
 
 
+                </div>
+            </div> 
+    </div>
+
+    
 
     
 </body>
