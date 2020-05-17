@@ -12,13 +12,18 @@
 
 .navbar{
     font-size: 4vw;
-    background-color: mediumpurple;
-    padding-bottom: 10px;
+    background-color: white;
+    
+    
     border: none;
     overflow: hidden;
     position: fixed;
     top: 0%;
     width: 100%;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.00);
+    
+    
     .desktop-logo{
         display: none;
     }
@@ -31,7 +36,8 @@
     
     .nav-links, .logo{
         text-decoration: none;
-        color: pink;
+        // color: black;
+        color: #FFC2C2;
     }
 
     .logo h1{
@@ -49,7 +55,7 @@
             padding: 2%;
             width: 100%;
             text-align: center;
-            &:hover{background-color: mediumturquoise;}
+            &:hover{a{color:#FFC2C2}
         }
         
 
@@ -67,7 +73,11 @@
         top: 0;
         padding: 6vw;
         font-size: 6vw;
-        color: pink;
+        color: black;
+        &:hover{
+            color: #FFC2C2;
+        }
+        
     }
 
 
@@ -133,3 +143,4 @@
 //     .mobile-container h1{font-size: 1%;}
     
 // }
+}
