@@ -1,22 +1,35 @@
 footer{
-    background-color: aqua;
+    background: rgba(255, 255, 255, 0.75);
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 13%;
+    height: 10%;
     
 
     ul{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: flex-end;
         
         li{
             list-style-type: none; 
             padding: 1em;
+            a:-webkit-any-link{
+                font-size: 0.75em;
+                color: black;
+                &:hover{color:#FFC2C2}
+            }
+            
         } 
     
     
+    }
+    .copyright-f{
+        font-size: 0.75em;
+        margin: auto 0;
+        font-family: 'raleway';
+        &:hover{color:#FFC2C2}
+
     }
 
     
@@ -25,11 +38,15 @@ footer{
 
 
 
+
 }
 
 .footer-icons{
     font-size: 14vw;
 }
+
+
+
 
 
 
