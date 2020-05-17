@@ -86,14 +86,16 @@
 
     // nav menu 
     .navbar {
-        height: 10%;
+        height: 18%;
         padding: 0;
         .icon{display:none;}
 
         #myLinks{
             display: flex;
             flex-direction: row;
-            font-size: 2vw;
+            font-size: 1.25vw;
+            line-height: 2;
+            font-family: raleway;
         }
                 
         .logo h1{
@@ -102,6 +104,8 @@
         }
         .desktop-logo{
             display:block;
+            padding: 0;
+            line-height: 50%;
         }
         .mobile-logo{
             display: none;
@@ -171,6 +175,22 @@
     // }
     
     // footer
+
+    // footer ul li {
+    //     // padding: 0;
+    // }
+
+    // footer{
+    //     display: flex;
+    //     align-items: center;
+    // }
+    .footer-icons{
+        font-size: 43%;
+        
+    }
+    footer{
+        height: 7%;
+    } 
 
     
 }

@@ -21,7 +21,8 @@
     top: 0%;
     width: 100%;
     z-index: 99;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.00);
+    
     
     .desktop-logo{
         display: none;
@@ -35,7 +36,8 @@
     
     .nav-links, .logo{
         text-decoration: none;
-        color: black;
+        // color: black;
+        color: #FFC2C2;
     }
 
     .logo h1{
@@ -53,7 +55,7 @@
             padding: 2%;
             width: 100%;
             text-align: center;
-            &:hover{a{color:rgba(255,194,194,0.6)}}
+            &:hover{a{color:#FFC2C2}
         }
         
 
@@ -141,3 +143,4 @@
 //     .mobile-container h1{font-size: 1%;}
     
 // }
+}
