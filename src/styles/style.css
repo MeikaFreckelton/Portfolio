@@ -122,6 +122,23 @@ p {
   display: block;
 }
 
+#profile {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  top: 10%;
+  z-index: -1;
+}
+
+#profile img {
+  margin: 0 20%;
+  width: 60%;
+  border-radius: 50%;
+}
+
 .contactme {
   padding: 5%;
 }
@@ -215,23 +232,6 @@ footer .copyright-f:hover {
 
 .footer-icons {
   font-size: 14vw;
-}
-
-#profile {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  top: 10%;
-  z-index: -1;
-}
-
-#profile img {
-  margin: 0 20%;
-  width: 60%;
-  border-radius: 50%;
 }
 
 .projects {
@@ -313,101 +313,6 @@ footer .copyright-f:hover {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-family: 'Quicksand', sans-serif;
-}
-
-.contactme {
-  padding: 5%;
-}
-
-.message-forms {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.message-forms input[type=text], .message-forms select, .message-forms textarea {
-  width: 90%;
-  margin-top: 1%;
-  border: none;
-  padding: 1%;
-  height: 2.5em;
-}
-
-.message-forms textarea {
-  height: 15em;
-}
-
-.details {
-  background-color: indigo;
-  position: absolute;
-  top: 65%;
-  width: 100%;
-  height: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.details a {
-  text-decoration: none;
-  color: black;
-}
-
-footer {
-  background: rgba(255, 255, 255, 0.75);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 10%;
-}
-
-footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-footer ul li {
-  list-style-type: none;
-  padding: 1em;
-}
-
-footer ul li a:-webkit-any-link {
-  font-size: 0.75em;
-  color: black;
-}
-
-footer ul li a:-webkit-any-link:hover {
-  color: #FFC2C2;
-}
-
-footer .copyright-f {
-  font-size: 0.75em;
-  margin: auto 0;
-  font-family: 'raleway';
-}
-
-footer .copyright-f:hover {
-  color: #FFC2C2;
-}
-
-.footer-icons {
-  font-size: 14vw;
 }
 
 [class*="col-"] {
