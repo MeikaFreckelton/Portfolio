@@ -24,15 +24,15 @@ h3:hover {
 
 .blog-parts h3 {
   position: absolute;
-  top: 15%;
-  font-size: 2em;
+  top: 28%;
+  font-size: 3em;
   z-index: 80;
-  padding: 0 0 7% 0;
+  padding: 0 0 1% 0;
 }
 
 h3, h4, p {
   width: 100%;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h4 {
@@ -52,7 +52,6 @@ p {
 }
 
 .navbar {
-  font-size: 4vw;
   background-color: white;
   border: none;
   overflow: hidden;
@@ -76,12 +75,6 @@ p {
   color: #FFC2C2;
 }
 
-.navbar .logo h1 {
-  display: inline-block;
-  font-size: 7vw;
-  padding: 5% 0 3% 5%;
-}
-
 .navbar .main-nav {
   list-style-type: none;
   display: none;
@@ -94,10 +87,10 @@ p {
 }
 
 .navbar .main-nav li:hover a {
-  color: #FFC2C2;
+  color: black;
 }
 
-.navbar .main-nav .nav-links {
+.navbar .nav-links {
   margin: 10% auto;
   text-align: center;
   -webkit-box-align: center;
@@ -105,7 +98,7 @@ p {
           align-items: center;
 }
 
-.navbar .main-nav a.icon {
+.navbar a.icon {
   position: absolute;
   right: 0;
   top: 0;
@@ -114,11 +107,11 @@ p {
   color: black;
 }
 
-.navbar .main-nav a.icon:hover {
+.navbar a.icon:hover {
   color: #FFC2C2;
 }
 
-.navbar .active {
+.active {
   display: block;
 }
 
@@ -296,23 +289,23 @@ footer .copyright-f:hover {
   margin-bottom: 2%;
 }
 
-.container1:hover .centered {
-  display: block;
-}
-
-.container1:hover img {
-  opacity: 90%;
-}
-
 .container1 .centered {
   font-size: 2em;
-  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-family: 'Quicksand', sans-serif;
+}
+
+.container1:hover img {
+  opacity: 50%;
+}
+
+.container1:hover p {
+  opacity: 100%;
+  color: black;
 }
 
 [class*="col-"] {
@@ -443,7 +436,7 @@ footer .copyright-f:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    font-size: 1.25vw;
+    font-size: 2vw;
     line-height: 2;
     font-family: raleway;
   }
@@ -454,6 +447,15 @@ footer .copyright-f:hover {
     display: block;
     padding: 0;
     line-height: 50%;
+  }
+  .navbar .desktop-logo .hover {
+    display: none;
+  }
+  .navbar .desktop-logo:hover .hover {
+    display: block;
+  }
+  .navbar .desktop-logo:hover .no-hover {
+    display: none;
   }
   .navbar .mobile-logo {
     display: none;
@@ -474,7 +476,6 @@ footer .copyright-f:hover {
         justify-content: space-around;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 100%;
   }
   .container {
     margin: 0 5em;
@@ -485,22 +486,15 @@ footer .copyright-f:hover {
   .projects img {
     width: 50vw;
   }
-  .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .blog-parts {
+    max-width: 100%;
+    margin: 0 auto;
   }
-  .container img {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    position: absolute;
-  }
-  .container .container1 {
+  .blog-parts .container .container1 {
     padding: 5px;
+  }
+  .blog-parts .container .container1 img {
+    width: 50vw;
   }
   .footer-icons {
     font-size: 43%;
@@ -518,6 +512,8 @@ footer .copyright-f:hover {
 }
 
 body {
+  max-width: 100%;
+  margin: 0 auto;
   max-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }

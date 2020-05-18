@@ -93,7 +93,7 @@
         #myLinks{
             display: flex;
             flex-direction: row;
-            font-size: 1.25vw;
+            font-size: 2vw;
             line-height: 2;
             font-family: raleway;
         }
@@ -106,6 +106,18 @@
             display:block;
             padding: 0;
             line-height: 50%;
+            .hover{
+                display: none;
+            }
+            &:hover{
+                .hover{
+                    display: block;
+                }
+                .no-hover{
+                    display: none;
+                }
+                
+            }
         }
         .mobile-logo{
             display: none;
@@ -123,7 +135,7 @@
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100%
+        
     }
     .container{margin: 0 5em}
     #profile{
@@ -144,31 +156,36 @@
 
     // blog
 
-    .container{ 
-        display: flex;
-        
+    .blog-parts{
+        max-width: 100%;
+        margin: 0 auto;
+
+   
+
+        .container{ 
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: space-around;
+            // flex-wrap: wrap;
+            
+            
 
 
-        img{
-            
-            flex-direction: row;
-            flex-wrap: wrap;
-            position: absolute;
-            // float: left;
-            // max-width: 100%;
-            
+
+            .container1{
+                
+                // flex: 33.33%;
+                padding: 5px;
+
+                img{
+                    width: 50vw;;
+                }
+                
+
+            }
 
             
         }
-        .container1{
-            
-            // flex: 33.33%;
-            padding: 5px;
-            
-
-        }
-
-        
     }
     // .row{
     //     // display: flex;

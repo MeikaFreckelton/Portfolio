@@ -21,24 +21,34 @@
         margin-bottom: 2%;
         
     }
-    &:hover{
-        .centered{
-        display: block;
-        }
-        img{
-            opacity: 90%;
-        }
     
-    }
     
     .centered {
        font-size: 2em;
-        display: none;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-family: 'Quicksand', sans-serif;;
+        font-family: 'Quicksand', sans-serif;
         
+    }
+
+
+    &:hover{
+        // .centered{
+            // opacity: 70%;
+
+        
+        // }
+        img{
+            opacity: 50%;
+            // opacity: rgba(255, 255, 255, 0.00);
+        }
+
+        p{
+            opacity: 100%;
+            color: black;
+        }
+    
     }
 }
