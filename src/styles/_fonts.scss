@@ -6,6 +6,7 @@
 @import url(//db.onlinewebfonts.com/c/2c6559d94a7fa38ce73eaa827ca22ce2?family=Lust+Script+Display);
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Comfortaa:wght@300;400;500;600;700&family=Didact+Gothic&family=Dosis:wght@200;300;400;500;600;700;800&family=Maven+Pro:wght@400;500&family=Poppins:wght@100;200;300;400;500;600&family=Quicksand:wght@300;400;500;515;600;700&family=Raleway:wght@100;200;300;400;500&family=Teko:wght@300;400;500&display=swap');
 
+$feature:#ff61ba;
 
 
 // $heading-font: 'Dosis', sans-serif;
@@ -26,7 +27,7 @@ h1{
     font-weight: 400;
     color: black;
     &:hover{
-        color: FFC2C2;
+        color: $feature;
     }
 
 }
@@ -37,7 +38,7 @@ h3{
     color: black;
     text-align: center;
     &:hover{
-        color: #FFC2C2;
+        color: $feature;
     }
    
 
@@ -76,6 +77,9 @@ p{
     // text-align: center;
 
 }
+
+// $feature:#ff8ccd;
+
 
 
 

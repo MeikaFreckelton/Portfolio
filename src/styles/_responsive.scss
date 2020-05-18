@@ -93,7 +93,7 @@
         #myLinks{
             display: flex;
             flex-direction: row;
-            font-size: 2vw;
+            font-size: 1.5vw;
             line-height: 2;
             font-family: raleway;
         }
@@ -159,6 +159,26 @@
     .blog-parts{
         max-width: 100%;
         margin: 0 auto;
+        // padding-bottom: 5%;
+
+        h3{
+            top: 25%;
+            padding: 0;
+            &:hover{
+                color: $feature;
+            }
+        }
+
+        .img-first{
+            margin-top: 30%;
+        }
+
+        .centered{
+            p{
+                font-size: 2vw;
+                width: 100vw;
+            }
+        }
 
    
 
@@ -175,10 +195,13 @@
             .container1{
                 
                 // flex: 33.33%;
-                padding: 5px;
+                padding: 1%;
 
                 img{
-                    width: 50vw;;
+                    object-fit: cover;
+                    width: 60vw;
+                    height: 20vw;
+
                 }
                 
 
@@ -187,26 +210,86 @@
             
         }
     }
-    // .row{
-    //     // display: flex;
-    // }
     
-    // footer
-
-    // footer ul li {
-    //     // padding: 0;
-    // }
-
-    // footer{
-    //     display: flex;
-    //     align-items: center;
-    // }
+    
+    
     .footer-icons{
-        font-size: 43%;
+        font-size: 2vw;
+        line-height: 0;
+        bottom: 4%;
+        color: $feature;
+        // &:hover{
+        //     color: black;
+        // }
+        
+
         
     }
     footer{
         height: 7%;
+        background-color: rgba(255, 255, 255, 0.00);
+        bottom: 0;
+        .copy-copyright{
+            display: none;
+        }
+
+        .copyrights{
+
+            .copy-c{
+                font-size: 2vw;
+            }
+
+            
+            &:hover{
+                .copy-copyright{
+                    display: inline-block;
+                    left: 3%;
+
+                }
+                // .copy-c{
+                //     display: none;
+                // }
+            }
+        }
+        
+        .copyright-f{
+            font-size: 1.1vw;
+            padding: 0;
+            margin: 0;
+            position: fixed;
+            bottom: 4vh;
+            left: 1.25%;
+            // a{
+            //     &:hover{
+            //         color: black;
+
+            //     }
+            // }
+
+
+        }
+
+        
+        
+
+       
+
+        ul li {
+            padding: 1em;
+            
+
+            a:-webkit-any-link{
+                color: $feature;
+                font-size: 5vh;
+
+                
+                
+                
+                &:hover{
+                    color: black;
+                }
+            }
+        }
     } 
 
     

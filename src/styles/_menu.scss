@@ -37,7 +37,7 @@
     .nav-links, .logo{
         text-decoration: none;
         // color: black;
-        color: #FFC2C2;
+        color: $feature;
     }
 
     
@@ -71,7 +71,7 @@
         font-size: 6vw;
         color: black;
         &:hover{
-            color: #FFC2C2;
+            color: $feature;
         }
         
     }
