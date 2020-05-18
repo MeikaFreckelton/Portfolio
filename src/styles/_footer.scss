@@ -17,7 +17,7 @@ footer{
             a:-webkit-any-link{
                 font-size: 0.75em;
                 color: black;
-                &:hover{color:#FFC2C2}
+                &:hover{color:$feature}
             }
             
         } 
@@ -28,7 +28,7 @@ footer{
         font-size: 0.75em;
         margin: auto 0;
         font-family: 'raleway';
-        &:hover{color:#FFC2C2}
+        &:hover{color:$feature}
 
     }
 
