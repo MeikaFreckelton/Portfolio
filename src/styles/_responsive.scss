@@ -20,6 +20,58 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    
+    // index styling -----------------------------------------
+    
+    #page-wrapper-i{
+
+
+        .home-content{
+
+
+            .landing{
+                .landing-contents{
+                    padding-top: 40%;
+                }
+            }
+
+
+            .welcome{
+
+                padding: 2em 4em;
+                margin-bottom: 5%;
+                h4{
+                    font-size: 2.9em;
+                }
+                
+
+            }
+
+        }
+
+        .menu-options{
+            font-size: 1.5em;
+            ul{
+                margin-bottom: 5%;
+            }
+        }
+
+        
+
+
+    }
+    
+    .copyr{
+        p{
+            font-size: 2em;
+            padding: 0 14% 5%;
+        }
+    }
+    
+    
+    
+    
+    
     .mainnav li{font-size: 5vw;}
     #profile {
         
@@ -132,6 +184,81 @@
 
 
     // index page ----------------------------------------
+
+    #page-wrapper-i {
+        width: 90vw;
+        margin: 0 auto;
+
+
+        .home-content{
+
+            h4{
+                font-size: 3vw;
+            }
+            .welcome{
+                display: none;
+            }
+
+            .welcome-d{
+                display: inline-block;
+            }
+
+            .landing{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+
+                .landing-contents{
+                    padding-top: 0%;
+
+                }
+            }
+
+            .desktop-logos{
+                #PinkLogo{
+                    width: 100%;
+                }
+                #BlackLogo{
+                    width: 100%;
+                }
+            }
+        }
+
+        .menu-options{
+            
+            ul{
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                
+
+                
+
+
+                .odd-item{
+                    display: inline-block;
+                    a{
+                        font-size: 1.25em;
+                        color: black
+                    }
+                    background-color: white;
+                    box-shadow: 0.5em 0.5em 0 0 black;
+                    border: 0.45em solid $feature
+                }
+            }
+
+            
+        }
+
+
+
+
+    }
+    .copyr{
+        display: none;
+    }
 
 
 

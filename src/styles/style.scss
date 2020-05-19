@@ -6,7 +6,7 @@
 @import 'projects';
 @import 'blog';
 
-
+@import 'index';
 @import 'responsive';
 
 
@@ -79,103 +79,7 @@ main{
 
 // index styling
 
-#page-wrapper-i{
-    display: flex;
-    flex-direction: column;
-    // justify-content: center;
-    align-items: center;
-    text-align: center;
 
-
-
-    .home-content{
-        
-        // height: 100%;
-        
-        // margin: 40% 0 0%;
-        // background-color: $feature;
-        // box-shadow: 0.75em 0.75em 0 0 $feature;  
-        // color: white;     
-       
-        // padding: 3em 1em;
-
-        .landing{
-            height: 100vh;
-            .landing-contents{
-                padding-top: 50%;
-            }
-        }
-
-        .welcome{
-            background-color: $feature;
-            padding: 1em 0.5em;
-            box-shadow: 0.5em 0.5em 0  0 black;
-            color: white;
-            margin-bottom: 15%;
-            margin-top: 10%;
-        }
-
-        .desktop-logos{
-            width: 98%;
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            
-            #BlackLogo{
-                display: none;
-                width: 90%;
-            }
-            #PinkLogo{
-                width: 90%; 
-                // display: none; 
-            }
-
-            &:hover{
-                #BlackLogo{
-                    display: flex;
-                    
-                }
-                #PinkLogo{
-                    display: none;
-                }
-            }
-
-        }
-
-        
-    }
-
-
-    .menu-options{
-        ul{ 
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 100vw;
-            margin-bottom: 20%;
-            
-        
-            li{
-                list-style-type: none;
-                width: 100;
-                background-color: black;
-                padding: 1em;
-                margin: 3% 2%;
-                box-shadow: 0.5em 0.5em 0 0 $feature;
-            
-                // height: 5vh;
-                
-                a{
-                    text-decoration: none;
-                    color: white;
-                    font-family: 'raleway', sans-serif;
-                    font-size: 1.5em;
-                    
-                    
-                }
-            }
-    }   }
-}
 
 
 
