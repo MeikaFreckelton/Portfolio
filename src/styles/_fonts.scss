@@ -40,9 +40,34 @@ h3, h4, p{
 }
 
 h4{
-    padding: 6% 0 2% 9%;
+    // padding: 6% 0 2% 9%;
     font-size: 1.75em;
 }
+
+.home-content{
+    
+    h4{
+        font-weight: 400;
+    }
+    .web{
+        margin: 0;
+        padding: 0;
+        
+        
+        
+        
+        
+    }
+}
+
+.copyr{
+    p{
+        font-size: 1em;
+        padding: 0 14% 20%;
+    }
+}
+
+
 
 p{
     padding: 1% 9%;
