@@ -67,6 +67,11 @@
     
 }
 
+
+// ------------------------------------------------------------
+
+
+
 @media all and (min-width: 769px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -82,9 +87,9 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     
+// ---------------------------------------
 
-
-    // nav menu 
+    // menu 
     .navbar {
         height: 18%;
         padding: 0;
@@ -183,18 +188,13 @@
    
 
         .container{ 
-            // display: flex;
-            // flex-direction: row;
-            // justify-content: space-around;
-            // flex-wrap: wrap;
+
             
             
 
 
 
             .container1{
-                
-                // flex: 33.33%;
                 padding: 1%;
 
                 img{
@@ -218,9 +218,6 @@
         line-height: 0;
         bottom: 4%;
         color: $feature;
-        // &:hover{
-        //     color: black;
-        // }
         
 
         
@@ -246,9 +243,7 @@
                     left: 3%;
 
                 }
-                // .copy-c{
-                //     display: none;
-                // }
+            
             }
         }
         
@@ -259,12 +254,7 @@
             position: fixed;
             bottom: 4vh;
             left: 1.25%;
-            // a{
-            //     &:hover{
-            //         color: black;
-
-            //     }
-            // }
+    
 
 
         }
