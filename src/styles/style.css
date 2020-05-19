@@ -227,6 +227,14 @@ footer .copyright-f:hover {
   font-size: 14vw;
 }
 
+.home-content .desktop-logos {
+  display: none;
+}
+
+.home-content .mobile-logos #m-logo-b {
+  display: none;
+}
+
 .projects {
   position: absolute;
   top: 10%;
