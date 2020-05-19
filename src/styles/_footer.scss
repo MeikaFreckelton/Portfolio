@@ -22,7 +22,7 @@ footer{
             a:-webkit-any-link{
                 font-size: 0.75em;
                 color: black;
-                &:hover{color:$feature}
+                &:hover{color:black}
             }
 
             
@@ -92,6 +92,9 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    // &:hover{
+    //     color: black;
+    // }
     
 }
 

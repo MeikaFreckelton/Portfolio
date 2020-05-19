@@ -245,7 +245,7 @@ footer ul li a:-webkit-any-link {
 }
 
 footer ul li a:-webkit-any-link:hover {
-  color: #ff61ba;
+  color: black;
 }
 
 footer .copy-copyright {
@@ -444,7 +444,7 @@ footer .copyrights {
     width: 100%;
   }
   .mainnav li {
-    font-size: 5vw;
+    font-size: 9vw;
   }
   #profile img {
     width: 50%;
@@ -457,14 +457,36 @@ footer .copyrights {
   h4 {
     font-size: 2.5em;
   }
-  .centered {
-    font-size: 4em;
+  .mobile-container .navbar .main-nav {
+    top: 12%;
+  }
+  .mobile-container .navbar .main-nav a {
+    font-size: 4vw;
+  }
+  .mobile-container .navbar .logo-wrap {
+    height: 12%;
+  }
+  .mobile-container .navbar .icon {
+    padding: 5vw;
+  }
+  .blog-parts h3 {
+    top: 15%;
+  }
+  .centered p {
+    font-size: 3em;
+  }
+  .copyrights-end-m .copyright-f #copy-id {
+    font-size: 2em;
+  }
+  footer ul li {
+    padding: 0;
   }
   footer ul li a:-webkit-any-link {
-    font-size: 1.5em;
+    font-size: 0.5em;
+    padding: 0 0.5em;
   }
   footer .copyright-f {
-    font-size: 1.45em;
+    font-size: 2em;
     padding-left: 5%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -513,6 +535,9 @@ footer .copyrights {
   }
   .col-12 {
     width: 100%;
+  }
+  .mobile-container .navbar .main-nav a {
+    font-size: 2vw;
   }
   .navbar {
     height: 18%;
@@ -614,10 +639,13 @@ footer .copyrights {
     -webkit-box-shadow: 6px 7px 0px 0px #ff61ba;
             box-shadow: 6px 7px 0px 0px #ff61ba;
   }
+  .copyrights-end-m {
+    display: none;
+  }
   .footer-icons {
     font-size: 2vw;
     line-height: 0;
-    bottom: 4%;
+    bottom: 0;
     color: #ff61ba;
   }
   footer {
@@ -626,6 +654,15 @@ footer .copyrights {
     bottom: 0;
   }
   footer .copy-copyright {
+    display: none;
+  }
+  footer .copyrights:first-child {
+    display: inline-block;
+  }
+  footer .copyrights:nth-of-type(2) {
+    display: none;
+  }
+  footer .copyrights .mobile-copy {
     display: none;
   }
   footer .copyrights .copy-c {
@@ -644,14 +681,11 @@ footer .copyrights {
     left: 1.25%;
   }
   footer ul li {
-    padding: 1em;
+    padding: 0.5em;
   }
   footer ul li a:-webkit-any-link {
     color: #ff61ba;
     font-size: 5vh;
-  }
-  footer ul li a:-webkit-any-link:hover {
-    color: black;
   }
 }
 
