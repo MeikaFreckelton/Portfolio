@@ -20,7 +20,63 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
     .mainnav li{font-size: 9vw;}
+
+    
+    // index styling -----------------------------------------
+    
+    #page-wrapper-i{
+
+
+        .home-content{
+
+
+            .landing{
+                .landing-contents{
+                    padding-top: 40%;
+                }
+            }
+
+
+            .welcome{
+
+                padding: 2em 4em;
+                margin-bottom: 5%;
+                h4{
+                    font-size: 2.9em;
+                }
+                
+
+            }
+
+        }
+
+        .menu-options{
+            font-size: 1.5em;
+            ul{
+                margin-bottom: 5%;
+            }
+        }
+
+        
+
+
+    }
+    
+    .copyr{
+        p{
+            font-size: 2em;
+            padding: 0 14% 5%;
+        }
+    }
+    
+    
+    
+    
+    
+    .mainnav li{font-size: 5vw;}
+
     #profile {
         
         img{
@@ -115,6 +171,11 @@
     
 }
 
+
+// ------------------------------------------------------------
+
+
+
 @media all and (min-width: 769px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -130,6 +191,8 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     
+    // ---------------------------------------
+
 
 
     // nav menu 
@@ -137,6 +200,7 @@
     .mobile-container .navbar .main-nav a{
         font-size: 2vw;
     }
+
 
     .navbar {
 
@@ -186,7 +250,105 @@
 
     }
 
-   
+
+
+    // index page ----------------------------------------
+
+    #page-wrapper-i {
+        
+        margin: 0 auto;
+
+
+        .home-content{
+
+            h4{
+                font-size: 3vw;
+            }
+            .welcome{
+                display: none;
+            }
+
+            .welcome-d{
+                display: inline-block;
+            }
+
+            .landing{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+
+                .landing-contents{
+                    padding-top: 0%;
+
+                }
+            }
+
+            .desktop-logos{
+                #PinkLogo{
+                    width: 100%;
+                }
+                #BlackLogo{
+                    width: 100%;
+                }
+            }
+        }
+
+        .menu-options{
+            
+        
+            
+            ul{
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                li{
+                    margin: 3em;
+                    padding: 1em;
+                }
+
+                
+
+                
+
+
+                .odd-item{
+                    display: inline-block;
+                    a{
+                        font-size: 1.25em;
+                        color: black
+                    }
+                    background-color: white;
+                    box-shadow: 0.5em 0.5em 0 0 black;
+                    border: 0.45em solid $feature
+                }
+            }
+
+            
+        }
+
+
+
+
+    }
+    .copyr{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // about page
     h3{
@@ -208,7 +370,7 @@
     }
 
 
-    // projects
+    // projects ----------------------------------------
 
     .projects{
         img{
@@ -217,7 +379,8 @@
     }
 
 
-    // blog
+    // blog ----------------------------------------
+
 
     .blog-parts{
         max-width: 100%;
@@ -246,19 +409,19 @@
    
 
         .container{ 
+
             // display: flex;
             // flex-direction: row;
             // justify-content: space-around;
             // flex-wrap: wrap;
             top: 20%;
+
             
             
 
 
 
             .container1{
-                
-                // flex: 33.33%;
                 padding: 1%;
 
                 img{
@@ -276,6 +439,7 @@
         }
     }
     
+
     .copyrights-end-m{
         display: none;
     }
@@ -283,14 +447,21 @@
     // footer .copyrights{
     //     display: inline-block;
     // }
+
+    
+
+
+
+    // footer ----------------------------------------
+
+
     
     .footer-icons{
         font-size: 2vw;
         line-height: 0;
         bottom: 0;
         color: $feature;
-        
-        
+
         
 
         
@@ -325,9 +496,7 @@
                     left: 3%;
 
                 }
-                // .copy-c{
-                //     display: none;
-                // }
+            
             }
         }
         
@@ -338,12 +507,7 @@
             position: fixed;
             bottom: 4vh;
             left: 1.25%;
-            // a{
-            //     &:hover{
-            //         color: black;
-
-            //     }
-            // }
+    
 
 
         }
