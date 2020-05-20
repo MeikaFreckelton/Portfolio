@@ -407,7 +407,7 @@ footer .copyright-f:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 95vw;
+  width: 100vw;
   margin-bottom: 20%;
 }
 
@@ -415,27 +415,14 @@ footer .copyright-f:hover {
   display: none;
 }
 
-#page-wrapper-i .menu-options ul .odd-item:hover {
-  -webkit-box-shadow: 0.5em 0.5em 0 0 #ff61ba;
-          box-shadow: 0.5em 0.5em 0 0 #ff61ba;
-  border: 0.45em solid black;
-  background-color: white;
-}
-
 #page-wrapper-i .menu-options ul li {
   list-style-type: none;
   width: 100;
   background-color: black;
   padding: 1em;
-  margin: 3% 0;
+  margin: 3% 2%;
   -webkit-box-shadow: 0.5em 0.5em 0 0 #ff61ba;
           box-shadow: 0.5em 0.5em 0 0 #ff61ba;
-}
-
-#page-wrapper-i .menu-options ul li:hover {
-  background-color: #ff61ba;
-  -webkit-box-shadow: 0.5em 0.5em 0 0 black;
-          box-shadow: 0.5em 0.5em 0 0 black;
 }
 
 #page-wrapper-i .menu-options ul li a {
@@ -618,6 +605,7 @@ footer .copyright-f:hover {
     display: none;
   }
   #page-wrapper-i {
+    width: 90vw;
     margin: 0 auto;
   }
   #page-wrapper-i .home-content h4 {
@@ -656,10 +644,6 @@ footer .copyright-f:hover {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-  #page-wrapper-i .menu-options ul li {
-    margin: 3em;
-    padding: 1em;
   }
   #page-wrapper-i .menu-options ul .odd-item {
     display: inline-block;
