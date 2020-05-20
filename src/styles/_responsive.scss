@@ -20,7 +20,63 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
+    .mainnav li{font-size: 9vw;}
+
+    
+    // index styling -----------------------------------------
+    
+    #page-wrapper-i{
+
+
+        .home-content{
+
+
+            .landing{
+                .landing-contents{
+                    padding-top: 40%;
+                }
+            }
+
+
+            .welcome{
+
+                padding: 2em 4em;
+                margin-bottom: 5%;
+                h4{
+                    font-size: 2.9em;
+                }
+                
+
+            }
+
+        }
+
+        .menu-options{
+            font-size: 1.5em;
+            ul{
+                margin-bottom: 5%;
+            }
+        }
+
+        
+
+
+    }
+    
+    .copyr{
+        p{
+            font-size: 2em;
+            padding: 0 14% 5%;
+        }
+    }
+    
+    
+    
+    
+    
     .mainnav li{font-size: 5vw;}
+
     #profile {
         
         img{
@@ -36,24 +92,70 @@
         font-size: 2.5em;
     }
 
+    .mobile-container{
 
-    .centered{
-        font-size: 4em;
+        .navbar {
+            
+
+            .main-nav{
+                top: 12%;
+                a{
+                    font-size: 4vw;
+                }
+            }
+            .logo-wrap{
+                height: 12%;
+                
+            }
+
+            .icon{
+               padding: 5vw;     
+            }
+        }
+
+    }   
+
+.blog-parts{
+    
+    h3{
+        top: 15%;
     }
+}
 
+
+    .centered {
+        p{
+            font-size: 3em;
+        }
+    }
+    .copyrights-end-m .copyright-f{
+        #copy-id{
+            font-size: 2em;
+        }
+    }
 
     // footer
     footer {
-        // 
-        // flex-direction: row;
-        // justify-content: flex-end;
+
+        ul li{
+            padding: 0;
+        }
+
+
+    
+
 
         ul li a:-webkit-any-link{
-            font-size: 1.5em;
+            font-size: 0.5em;
+            padding: 0 0.5em;
         
         }
+
+
+
+
     .copyright-f{
-        font-size: 1.45em;
+        font-size: 2em;
         padding-left: 5%;
         display: flex;
         width: 100%;
@@ -63,9 +165,16 @@
 
     }
 
+    
+
     }   
     
 }
+
+
+// ------------------------------------------------------------
+
+
 
 @media all and (min-width: 769px) {
     /* For desktop: */
@@ -82,18 +191,28 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     
+    // ---------------------------------------
+
 
 
     // nav menu 
+
+    .mobile-container .navbar .main-nav a{
+        font-size: 2vw;
+    }
+
+
     .navbar {
+
         height: 18%;
         padding: 0;
         .icon{display:none;}
 
+
         #myLinks{
             display: flex;
             flex-direction: row;
-            font-size: 1.25vw;
+            font-size: 1.5vw;
             line-height: 2;
             font-family: raleway;
         }
@@ -106,12 +225,130 @@
             display:block;
             padding: 0;
             line-height: 50%;
+            .hover{
+                display: none;
+            }
+            &:hover{
+                .hover{
+                    display: block;
+                }
+                .no-hover{
+                    display: none;
+                }
+                
+            }
         }
         .mobile-logo{
             display: none;
         }
 
+        .main-nav{
+            li{
+                background-color: rgba(255, 255, 255, 0.0);
+            }
+        }
+
     }
+
+
+
+    // index page ----------------------------------------
+
+    #page-wrapper-i {
+        
+        margin: 0 auto;
+
+
+        .home-content{
+
+            h4{
+                font-size: 3vw;
+            }
+            .welcome{
+                display: none;
+            }
+
+            .welcome-d{
+                display: inline-block;
+            }
+
+            .landing{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+
+                .landing-contents{
+                    padding-top: 0%;
+
+                }
+            }
+
+            .desktop-logos{
+                #PinkLogo{
+                    width: 100%;
+                }
+                #BlackLogo{
+                    width: 100%;
+                }
+            }
+        }
+
+        .menu-options{
+            
+        
+            
+            ul{
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                li{
+                    margin: 3em;
+                    padding: 1em;
+                }
+
+                
+
+                
+
+
+                .odd-item{
+                    display: inline-block;
+                    a{
+                        font-size: 1.25em;
+                        color: black
+                    }
+                    background-color: white;
+                    box-shadow: 0.5em 0.5em 0 0 black;
+                    border: 0.45em solid $feature
+                }
+            }
+
+            
+        }
+
+
+
+
+    }
+    .copyr{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // about page
     h3{
@@ -123,7 +360,7 @@
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100%
+        
     }
     .container{margin: 0 5em}
     #profile{
@@ -133,7 +370,7 @@
     }
 
 
-    // projects
+    // projects ----------------------------------------
 
     .projects{
         img{
@@ -142,54 +379,155 @@
     }
 
 
-    // blog
-
-    .container{ 
-        display: flex;
-        
+    // blog ----------------------------------------
 
 
-        img{
+    .blog-parts{
+        max-width: 100%;
+        margin: 0 auto;
+        // padding-bottom: 5%;
+
+        h3{
+            top: 25%;
+            padding: 0;
+            &:hover{
+                color: $feature;
+            }
+        }
+
+        .img-first{
+            margin-top: 30%;
+        }
+
+        .centered{
+            p{
+                font-size: 2vw;
+                width: 100vw;
+            }
+        }
+
+   
+
+        .container{ 
+
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: space-around;
+            // flex-wrap: wrap;
+            top: 20%;
+
             
-            flex-direction: row;
-            flex-wrap: wrap;
-            position: absolute;
-            // float: left;
-            // max-width: 100%;
             
+
+
+
+            .container1{
+                padding: 1%;
+
+                img{
+                    object-fit: cover;
+                    width: 60vw;
+                    height: 20vw;
+                    box-shadow:6px 7px 0px 0px $feature;
+
+                }
+                
+
+            }
 
             
         }
-        .container1{
-            
-            // flex: 33.33%;
-            padding: 5px;
-            
-
-        }
-
-        
     }
-    // .row{
-    //     // display: flex;
-    // }
     
-    // footer
 
-    // footer ul li {
-    //     // padding: 0;
+    .copyrights-end-m{
+        display: none;
+    }
+
+    // footer .copyrights{
+    //     display: inline-block;
     // }
 
-    // footer{
-    //     display: flex;
-    //     align-items: center;
-    // }
+    
+
+
+
+    // footer ----------------------------------------
+
+
+    
     .footer-icons{
-        font-size: 43%;
+        font-size: 2vw;
+        line-height: 0;
+        bottom: 0;
+        color: $feature;
+
+        
+
         
     }
     footer{
         height: 7%;
+        background-color: rgba(255, 255, 255, 0.00);
+        bottom: 0;
+        .copy-copyright{
+            display: none;
+        }
+
+        .copyrights{
+            &:first-child{
+                display: inline-block;
+            }
+            &:nth-of-type(2){
+                display: none;
+            }
+            .mobile-copy{
+                display: none;
+            }
+
+            .copy-c{
+                font-size: 2vw;
+            }
+
+            
+            &:hover{
+                .copy-copyright{
+                    display: inline-block;
+                    left: 3%;
+
+                }
+            
+            }
+        }
+        
+        .copyright-f{
+            font-size: 1.1vw;
+            padding: 0;
+            margin: 0;
+            position: fixed;
+            bottom: 4vh;
+            left: 1.25%;
+    
+
+
+        }
+
+        
+        
+
+       
+
+        ul li {
+            padding: 0.5em;
+            
+            
+
+            a:-webkit-any-link{
+                color: $feature;
+                font-size: 5vh;
+                
+            }
+        }
     } 
 
     
