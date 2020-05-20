@@ -255,7 +255,7 @@
     // index page ----------------------------------------
 
     #page-wrapper-i {
-        
+        width: 90vw;
         margin: 0 auto;
 
 
@@ -297,16 +297,9 @@
 
         .menu-options{
             
-        
-            
             ul{
                 flex-direction: row;
                 flex-wrap: wrap;
-
-                li{
-                    margin: 3em;
-                    padding: 1em;
-                }
 
                 
 
