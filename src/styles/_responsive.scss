@@ -135,7 +135,7 @@
     }
 
 
-    // footer
+    // footer ------------------------------------------
     footer {
         // 
         // flex-direction: row;
@@ -163,7 +163,55 @@
 
     }
 
-    }   
+    }  
+    
+    
+
+
+
+
+
+
+    // --------------------------
+
+    // contact page
+
+    .contact-parts{
+
+        margin-top: 10%;
+
+
+        .contactme{
+            font-size: 3em;
+        }
+
+        .message-forms{
+
+
+
+
+            input[type=text], select, textarea{
+                font-size: 2em;
+                padding: 2.5%;
+            }
+        }
+
+
+        .details{
+            height: 60vh;
+
+            a{
+                font-size: 2em;
+            }
+
+            .message{
+                font-size: 2.5em;
+            }
+        }
+    }
+
+
+    
     
 }
 
@@ -511,6 +559,12 @@
         }
     } 
 
+
+
+
+    // contact page
+
+    
     
 }
 

@@ -12,33 +12,39 @@
 <body>
     <div class="mobile-container">
         <nav class="navbar" id="mytopnav">
-            <a href="#" class="logo mobile-logo"><h1>meika freckelton</h1></a>
-            <ul class="main-nav" id="myLinks">
-                <li>
-                    <a href="index.html" class="nav-links">Home</a>
-                </li>
-                <li>
-                    <a href="about.html" class="nav-links">About</a>
-                </li>
-                <li>
-                    <a href="projects.html" class="nav-links">Projects</a>
-                </li>
-                <li class="desktop-logo">
-                    <a href="#" class="logo no-hover"><img src="SVG/desktop-pink.svg"</a>
-                    <a href="#" class="logo hover"><img src="SVG/desktop-black.svg"</a>
+            <div class="logo-wrap">
 
-                </li>
+                <a href="#" class="logo mobile-logo m-no-hover"><img src="SVG/mbile-pink.svg"></a>
+                <a href="#" class="logo mobile-logo m-hover"><img src="SVG/mbile-black.svg"></a>
+            </div>
+                <div class="menu-wrap">
+                <ul class="main-nav" id="myLinks">
+                    <li>
+                        <a href="index.html" class="nav-links">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="nav-links">About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="nav-links">Projects</a>
+                    </li>
+                    <li class="desktop-logo">
+                        <a href="#" class="logo no-hover"><img src="SVG/desktop-pink.svg"</a>
+                        <a href="#" class="logo hover"><img src="SVG/desktop-black.svg"</a>
 
-                <li>
-                    <a href="skills.html" class="nav-links">Skills</a>
-                </li>
-                <li>
-                    <a href="blog.html" class="nav-links">Blog</a>
-                </li>
-                <li>
-                    <a href="contact.html" class="nav-links">Contact</a>
-                </li>
-            </ul>
+                    </li>
+
+                    <li>
+                        <a href="skills.html" class="nav-links">Skills</a>
+                    </li>
+                    <li>
+                        <a href="blog.html" class="nav-links">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-links">Contact</a>
+                    </li>
+                </ul>
+            </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -47,26 +53,27 @@
 
     </div>
     
-    <main>
-        <h2 class="contactme">CONTACT ME</h2>
+    <main class="contact-parts">
+        <h3 class="contactme">CONTACT ME</h3>
         <div class="message-forms">
-            <h4 class="message">Leave me a message:</h4>
+            <!-- <h4 class="message">Leave me a message:</h4> -->
         
-            <form action="/action_page.php">
-                <input type="text" id="name" name="firstname" placeholder="Your name...">
-                <input type="text" id="email" name="email" placeholder="Your email...">
-                <textarea placeholder="Your message..."></textarea>
+            <form action="/action_page.php" class="forms">
+                <input type="text" id="name" name="firstname" placeholder="your name...">
+                <input type="text" id="email" name="email" placeholder="your email...">
+                <textarea placeholder="your message..."></textarea>
             </form>
         </div>
     
-    </main>
-
-    <section class="details">
-        <h4 class="message">Or contact me directly:</h4>
-        <a href="tel:##########">0423 567 890</a><br>
-        <a href="mailto:meikafreckelton@gmail.com">meikafreckelton@gmail.com</a>
-        <!-- put in symbols -->
-    </section>
+        <section class="details">
+            <h4 class="message">Or contact me directly:</h4>
+            <div class="c-details">
+                <a href="tel:##########">0423 567 890</a><br>
+                <a href="mailto:meikafreckelton@gmail.com">meikafreckelton@gmail.com</a>
+            <!-- put in symbols -->
+        </div>
+        </section>
+    </main> 
     
 
     <footer class="footer-icons">

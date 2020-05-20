@@ -720,6 +720,25 @@ footer .copyrights {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  .contact-parts {
+    margin-top: 10%;
+  }
+  .contact-parts .contactme {
+    font-size: 3em;
+  }
+  .contact-parts .message-forms input[type=text], .contact-parts .message-forms select, .contact-parts .message-forms textarea {
+    font-size: 2em;
+    padding: 2.5%;
+  }
+  .contact-parts .details {
+    height: 60vh;
+  }
+  .contact-parts .details a {
+    font-size: 2em;
+  }
+  .contact-parts .details .message {
+    font-size: 2.5em;
+  }
 }
 
 @media all and (min-width: 769px) {
