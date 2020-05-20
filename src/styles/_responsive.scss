@@ -40,30 +40,6 @@
     .centered{
         font-size: 4em;
     }
-
-
-    // footer
-    footer {
-        // 
-        // flex-direction: row;
-        // justify-content: flex-end;
-
-        ul li a:-webkit-any-link{
-            font-size: 1.5em;
-        
-        }
-    .copyright-f{
-        font-size: 1.45em;
-        padding-left: 5%;
-        display: flex;
-        width: 100%;
-        align-items: flex-start;
-        
-       
-
-    }
-
-    }   
     
 }
 
@@ -86,16 +62,14 @@
 
     // nav menu 
     .navbar {
-        height: 18%;
+        height: 10%;
         padding: 0;
         .icon{display:none;}
 
         #myLinks{
             display: flex;
             flex-direction: row;
-            font-size: 1.25vw;
-            line-height: 2;
-            font-family: raleway;
+            font-size: 2vw;
         }
                 
         .logo h1{
@@ -104,8 +78,6 @@
         }
         .desktop-logo{
             display:block;
-            padding: 0;
-            line-height: 50%;
         }
         .mobile-logo{
             display: none;
@@ -123,7 +95,6 @@
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100%
     }
     .container{margin: 0 5em}
     #profile{
@@ -140,57 +111,7 @@
             width: 50vw;
         }
     }
-
-
-    // blog
-
-    .container{ 
-        display: flex;
-        
-
-
-        img{
-            
-            flex-direction: row;
-            flex-wrap: wrap;
-            position: absolute;
-            // float: left;
-            // max-width: 100%;
-            
-
-            
-        }
-        .container1{
-            
-            // flex: 33.33%;
-            padding: 5px;
-            
-
-        }
-
-        
-    }
-    // .row{
-    //     // display: flex;
-    // }
     
-    // footer
-
-    // footer ul li {
-    //     // padding: 0;
-    // }
-
-    // footer{
-    //     display: flex;
-    //     align-items: center;
-    // }
-    .footer-icons{
-        font-size: 43%;
-        
-    }
-    footer{
-        height: 7%;
-    } 
 
     
 }
