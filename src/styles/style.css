@@ -102,7 +102,6 @@ p {
 
 .navbar .m-hover {
   display: none;
-  
 }
 
 .navbar .m-no-hover img {
@@ -178,11 +177,7 @@ p {
   border-radius: 50%;
 }
 
-.contactme {
-  padding: 5%;
-}
-
-.message-forms {
+.contact-parts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,26 +185,71 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20%;
 }
 
-.message-forms input[type=text], .message-forms select, .message-forms textarea {
-  width: 90%;
+.contact-parts .contactme {
+  text-align: center;
+}
+
+.contact-parts .message-forms .forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-parts .message-forms ::-webkit-input-placeholder {
+  color: #ff61ba;
+}
+
+.contact-parts .message-forms :-ms-input-placeholder {
+  color: #ff61ba;
+}
+
+.contact-parts .message-forms ::-ms-input-placeholder {
+  color: #ff61ba;
+}
+
+.contact-parts .message-forms ::placeholder {
+  color: #ff61ba;
+}
+
+.contact-parts .message-forms input[type=text], .contact-parts .message-forms select, .contact-parts .message-forms textarea {
+  width: 78vw;
   margin-top: 1%;
   border: none;
-  padding: 1%;
+  padding: 2%;
   height: 2.5em;
+  font-family: 'raleway', sans-serif;
+  font-size: 1em;
+  background-color: #ffd9f9;
 }
 
-.message-forms textarea {
+.contact-parts .message-forms textarea {
   height: 15em;
 }
 
-.details {
-  background-color: indigo;
-  position: absolute;
-  top: 65%;
+.contact-parts .details {
   width: 100%;
-  height: 30%;
+  height: 50vh;
+  margin-top: 2%;
+  padding: 9% 0% 0 11%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -219,9 +259,25 @@ p {
           flex-direction: column;
 }
 
-.details a {
+.contact-parts .details a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-family: 'raleway', sans-serif;
+  font-size: 1em;
+}
+
+.contact-parts .details .message {
+  font-size: 1.65em;
+}
+
+.contact-parts .details .c-details {
+  background-color: black;
+  padding: 5%;
+  margin-top: 5%;
+  width: 78vw;
+  line-height: 2;
+  -webkit-box-shadow: 0.5em 0.5em 0 0 #ff61ba;
+          box-shadow: 0.5em 0.5em 0 0 #ff61ba;
 }
 
 footer {
@@ -928,27 +984,6 @@ footer .copyrights {
 body {
   max-width: 100%;
   margin: 0 auto;
-}
-
-main {
-  background-color: hotpink;
-  position: absolute;
-  top: 15%;
-  width: 100%;
-  height: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .copyright {
