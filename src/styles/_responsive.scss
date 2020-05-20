@@ -20,9 +20,6 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-
-    .mainnav li{font-size: 9vw;}
-
     
     // index styling -----------------------------------------
     
@@ -76,7 +73,6 @@
     
     
     .mainnav li{font-size: 5vw;}
-
     #profile {
         
         img{
@@ -92,70 +88,24 @@
         font-size: 2.5em;
     }
 
-    .mobile-container{
 
-        .navbar {
-            
-
-            .main-nav{
-                top: 12%;
-                a{
-                    font-size: 4vw;
-                }
-            }
-            .logo-wrap{
-                height: 12%;
-                
-            }
-
-            .icon{
-               padding: 5vw;     
-            }
-        }
-
-    }   
-
-.blog-parts{
-    
-    h3{
-        top: 15%;
+    .centered{
+        font-size: 4em;
     }
-}
 
-
-    .centered {
-        p{
-            font-size: 3em;
-        }
-    }
-    .copyrights-end-m .copyright-f{
-        #copy-id{
-            font-size: 2em;
-        }
-    }
 
     // footer
     footer {
-
-        ul li{
-            padding: 0;
-        }
-
-
-    
-
+        // 
+        // flex-direction: row;
+        // justify-content: flex-end;
 
         ul li a:-webkit-any-link{
-            font-size: 0.5em;
-            padding: 0 0.5em;
+            font-size: 1.5em;
         
         }
-
-
-
-
     .copyright-f{
-        font-size: 2em;
+        font-size: 1.45em;
         padding-left: 5%;
         display: flex;
         width: 100%;
@@ -164,8 +114,6 @@
        
 
     }
-
-    
 
     }   
     
@@ -193,21 +141,11 @@
     
     // ---------------------------------------
 
-
-
-    // nav menu 
-
-    .mobile-container .navbar .main-nav a{
-        font-size: 2vw;
-    }
-
-
+    // menu 
     .navbar {
-
         height: 18%;
         padding: 0;
         .icon{display:none;}
-
 
         #myLinks{
             display: flex;
@@ -242,14 +180,7 @@
             display: none;
         }
 
-        .main-nav{
-            li{
-                background-color: rgba(255, 255, 255, 0.0);
-            }
-        }
-
     }
-
 
 
     // index page ----------------------------------------
@@ -349,7 +280,6 @@
 
 
 
-
     // about page
     h3{
         padding: 2% 0 2% 0;
@@ -410,12 +340,6 @@
 
         .container{ 
 
-            // display: flex;
-            // flex-direction: row;
-            // justify-content: space-around;
-            // flex-wrap: wrap;
-            top: 20%;
-
             
             
 
@@ -428,7 +352,6 @@
                     object-fit: cover;
                     width: 60vw;
                     height: 20vw;
-                    box-shadow:6px 7px 0px 0px $feature;
 
                 }
                 
@@ -439,29 +362,18 @@
         }
     }
     
-
-    .copyrights-end-m{
-        display: none;
-    }
-
-    // footer .copyrights{
-    //     display: inline-block;
-    // }
-
     
 
 
 
     // footer ----------------------------------------
 
-
     
     .footer-icons{
         font-size: 2vw;
         line-height: 0;
-        bottom: 0;
+        bottom: 4%;
         color: $feature;
-
         
 
         
@@ -475,15 +387,6 @@
         }
 
         .copyrights{
-            &:first-child{
-                display: inline-block;
-            }
-            &:nth-of-type(2){
-                display: none;
-            }
-            .mobile-copy{
-                display: none;
-            }
 
             .copy-c{
                 font-size: 2vw;
@@ -518,14 +421,19 @@
        
 
         ul li {
-            padding: 0.5em;
-            
+            padding: 1em;
             
 
             a:-webkit-any-link{
                 color: $feature;
                 font-size: 5vh;
+
                 
+                
+                
+                &:hover{
+                    color: black;
+                }
             }
         }
     } 
