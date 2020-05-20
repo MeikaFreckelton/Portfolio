@@ -242,7 +242,19 @@ p {
 }
 
 .contact-parts .message-forms textarea {
-  height: 15em;
+  height: 10em;
+}
+
+.contact-parts .message-forms input[type=submit] {
+  background-color: black;
+  width: 78vw;
+  height: 4vh;
+  margin-top: 2%;
+  font-family: 'raleway', sans-serif;
+  font-size: 1em;
+  color: white;
+  -webkit-box-shadow: 0.4em 0.4em 0 0 #ff61ba;
+          box-shadow: 0.4em 0.4em 0 0 #ff61ba;
 }
 
 .contact-parts .details {
@@ -267,15 +279,15 @@ p {
 }
 
 .contact-parts .details .message {
-  font-size: 1.65em;
+  font-size: 1.5em;
 }
 
 .contact-parts .details .c-details {
   background-color: black;
-  padding: 5%;
+  padding: 6%;
   margin-top: 5%;
   width: 78vw;
-  line-height: 2;
+  line-height: 1.5;
   -webkit-box-shadow: 0.5em 0.5em 0 0 #ff61ba;
           box-shadow: 0.5em 0.5em 0 0 #ff61ba;
 }
@@ -990,6 +1002,40 @@ footer .copyrights {
   }
   footer ul li a:-webkit-any-link:hover {
     color: black;
+  }
+  .contact-parts {
+    margin-top: 14%;
+  }
+  .contact-parts .contactme {
+    margin-bottom: 5%;
+  }
+  .contact-parts .message-forms input[type=text], .contact-parts .message-forms select, .contact-parts .message-forms textarea {
+    width: 50vw;
+    height: 1.75em;
+    padding: 2%;
+  }
+  .contact-parts .message-forms textarea {
+    height: 8em;
+    padding-top: 1.2%;
+  }
+  .contact-parts .details {
+    margin-bottom: 15%;
+    width: 100%;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-parts .details a {
+    font-size: 2.5vw;
+  }
+  .contact-parts .details .c-details {
+    width: 50vw;
+    margin-top: 2%;
+  }
+  .contact-parts .details .message {
+    padding-left: 25%;
+    margin-top: 5vh;
   }
 }
 
