@@ -194,6 +194,10 @@
                 font-size: 2em;
                 padding: 2.5%;
             }
+
+            input[type=submit]{
+                font-size: 1.75em;
+            }
         }
 
 
@@ -591,6 +595,11 @@
                 height: 8em;
                 padding-top: 1.2%;
             }
+
+            input[type=submit]{
+                width: 50vw;
+                height: 8vh;
+            }
         }
 
 
@@ -607,6 +616,7 @@
             .c-details{
                 width: 50vw;
                 margin-top: 2%;
+                padding: 2%;
                 
             }
 

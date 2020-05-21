@@ -742,6 +742,9 @@ footer .copyrights {
     font-size: 2em;
     padding: 2.5%;
   }
+  .contact-parts .message-forms input[type=submit] {
+    font-size: 1.75em;
+  }
   .contact-parts .details {
     height: 60vh;
   }
@@ -1018,6 +1021,10 @@ footer .copyrights {
     height: 8em;
     padding-top: 1.2%;
   }
+  .contact-parts .message-forms input[type=submit] {
+    width: 50vw;
+    height: 8vh;
+  }
   .contact-parts .details {
     margin-bottom: 15%;
     width: 100%;
@@ -1032,6 +1039,7 @@ footer .copyrights {
   .contact-parts .details .c-details {
     width: 50vw;
     margin-top: 2%;
+    padding: 2%;
   }
   .contact-parts .details .message {
     padding-left: 25%;
