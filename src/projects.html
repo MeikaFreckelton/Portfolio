@@ -15,57 +15,47 @@
 <body>
     <div class="mobile-container">
         <nav class="navbar" id="mytopnav">
-            <a href="#" class="logo mobile-logo"><h1>Meika Freckelton</h1></a>
-            <ul class="main-nav" id="myLinks">
-                <li>
-                    <a href="#" class="nav-links">Home</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-links">About</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-links">Projects</a>
-                </li>
-                <li class="desktop-logo">
-                    <a href="#" class="logo"><h1>Meika Freckelton</h1></a>
-                </li>
+            <div class="logo-wrap">
 
+                <a href="#" class="logo mobile-logo m-no-hover"><img src="SVG/mbile-pink.svg"></a>
+                <a href="#" class="logo mobile-logo m-hover"><img src="SVG/mbile-black.svg"></a>
+            </div>
+                <div class="menu-wrap">
+                <ul class="main-nav" id="myLinks">
+                    <li>
+                        <a href="index.html" class="nav-links">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="nav-links">About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="nav-links">Projects</a>
+                    </li>
+                    <li class="desktop-logo">
+                        <a href="#" class="logo no-hover"><img src="SVG/desktop-pink.svg"</a>
+                        <a href="#" class="logo hover"><img src="SVG/desktop-black.svg"</a>
 
-                <li>
-                    <a href="#" class="nav-links">Skills</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-links">Blog</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-links">Contact</a>
-                </li>
-            </ul>
+                    </li>
+
+                    <li>
+                        <a href="skills.html" class="nav-links">Skills</a>
+                    </li>
+                    <li>
+                        <a href="blog.html" class="nav-links">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-links">Contact</a>
+                    </li>
+                </ul>
+            </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
             
         </nav>
 
-    <div class="copyright">
-        <p>&copy Copyright Meika Freckelton | 2020</p>
     </div>
-    <footer>
-        <ul>
-            <li><a href="#"><i class="fab fa-github footer-icons"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter footer-icons"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin footer-icons"></i></a></li>
-        </ul>
-        <div class="copyright-desktop">
-            <p> Copyright &copy Meika Freckelton | 2020</p>
-        </div>
-    </footer>
 
-
-
-
-
-    </div>
     
     <div class="projects">
         <h3>Projects</h3>
@@ -97,14 +87,17 @@
 
 
 
-    <div class="copyright">
-        <p>&copy Copyright Meika Freckelton | 2020</p>
-    </div>
-    <footer>
+    <footer class="footer-icons">
         <ul>
-            <li><a href="#"><i class="fab fa-github fa-3x"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter fa-3x"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin fa-3x"></i></a></li>
+
+            <div class="copyrights">
+                <li class="copyright-f copy-c">&copy</li>
+                <li class="copyright-f copy-copyright">Copyright Meika Freckelton | 2020</li>
+                <li class="copyright-f mobile-copy">Meika Freckelton | 2020</li>
+            </div>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
         </ul>
     </footer>
 
