@@ -76,6 +76,7 @@ p {
   top: 0%;
   width: 100%;
   z-index: 99;
+  background: rgba(255, 255, 255, 0.75);
   height: 100%;
 }
 
@@ -565,6 +566,9 @@ footer .copyrights {
   .col-s-12 {
     width: 100%;
   }
+  .mainnav li {
+    font-size: 9vw;
+  }
   #page-wrapper-i .home-content .landing .landing-contents {
     padding-top: 40%;
   }
@@ -586,7 +590,7 @@ footer .copyrights {
     padding: 0 14% 5%;
   }
   .mainnav li {
-    font-size: 9vw;
+    font-size: 5vw;
   }
   #profile img {
     width: 50%;
@@ -682,7 +686,7 @@ footer .copyrights {
     font-size: 2vw;
   }
   .navbar {
-    height: 10%;
+    height: 18%;
     padding: 0;
   }
   .navbar .icon {
@@ -705,6 +709,8 @@ footer .copyrights {
   }
   .navbar .desktop-logo {
     display: block;
+    padding: 0;
+    line-height: 50%;
   }
   .navbar .desktop-logo .hover {
     display: none;
@@ -718,7 +724,6 @@ footer .copyrights {
   .navbar .mobile-logo {
     display: none;
   }
-
   .navbar .main-nav li {
     background-color: rgba(255, 255, 255, 0);
   }
@@ -776,7 +781,6 @@ footer .copyrights {
   }
   .copyr {
     display: none;
-
   }
   h3 {
     padding: 2% 0 2% 0;
