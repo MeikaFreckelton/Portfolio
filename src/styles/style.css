@@ -65,6 +65,7 @@ p {
   position: fixed;
   top: 0;
   z-index: 99;
+  font-family: 'raleway', sans-serif;
 }
 
 .navbar {
@@ -353,35 +354,7 @@ footer ul li a:-webkit-any-link:hover {
   color: #ff61ba;
 }
 
-footer .copy-copyright {
-  display: none;
-}
-
-footer .mobile-copy {
-  display: none;
-}
-
-footer .copyright-f {
-  font-size: 0.25em;
-  margin: auto 0;
-  font-family: 'raleway';
-  margin: 0;
-  padding: 0;
-}
-
-footer .copyright-f:hover {
-  color: #ff61ba;
-}
-
-footer .copy-c {
-  font-size: 10vw;
-  position: absolute;
-  bottom: 6%;
-  left: 4%;
-}
-
 footer .copyrights {
-  display: none;
   height: 100%;
   position: absolute;
   bottom: 0;
@@ -389,8 +362,35 @@ footer .copyrights {
   width: 100%;
 }
 
+footer .copyrights .copy-c {
+  font-size: 10vw;
+  position: absolute;
+  bottom: 6%;
+  left: 4%;
+}
+
+footer .copyrights .copyright-f {
+  font-size: 0.25em;
+  margin: auto 0;
+  font-family: 'raleway';
+  margin: 0;
+  padding: 0;
+}
+
+footer .copyrights .copyright-f:hover {
+  color: #ff61ba;
+}
+
+footer .copyrights .copy-copyright {
+  display: none;
+}
+
+footer .copyrights .mobile-copy {
+  display: inline-block;
+}
+
 .footer-icons {
-  font-size: 13vw;
+  font-size: 11vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,8 +409,8 @@ footer .copyrights {
 }
 
 .projects img {
-  height: auto;
-  max-width: 100vw;
+  height: 50vw;
+  width: 100%;
   margin-bottom: 1.5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -422,6 +422,8 @@ footer .copyrights {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .projects img:hover {
@@ -431,7 +433,7 @@ footer .copyrights {
 .projects .container2, .projects .container3, .projects .container4 {
   position: relative;
   text-align: center;
-  color: paleturquoise;
+  color: white;
 }
 
 .projects .container2 .centered, .projects .container3 .centered, .projects .container4 .centered {
@@ -440,6 +442,15 @@ footer .copyrights {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  font-family: 'raleway', sans-serif;
+}
+
+.projects .container2:hover, .projects .container3:hover, .projects .container4:hover {
+  color: black;
+}
+
+.projects .container2:hover img, .projects .container3:hover img, .projects .container4:hover img {
+  opacity: 50%;
 }
 
 .blog-parts h3 {
