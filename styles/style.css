@@ -771,6 +771,10 @@ footer .copyrights {
   display: none;
 }
 
+#page-wrapper-i .home-content h4 {
+  color: black;
+}
+
 #page-wrapper-i .menu-options ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1094,6 +1098,9 @@ footer .copyrights {
   }
   .col-12 {
     width: 100%;
+  }
+  .copyr {
+    display: inline-block;
   }
   .blog-page {
     top: 20%;
