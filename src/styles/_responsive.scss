@@ -21,6 +21,23 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     .mainnav li{font-size: 9vw;}
+
+    h3{
+        font-size: 3.75em;
+    }
+
+
+
+    .copyr{
+
+        font-size: 1.35em;
+        p{
+            padding-bottom: 15%;
+
+
+        }
+        
+    }
     
     // index styling -----------------------------------------
     
@@ -39,7 +56,7 @@
 
             .welcome{
 
-                padding: 2em 4em;
+                padding: 2em 5em;
                 margin-bottom: 5%;
                 h4{
                     font-size: 2.9em;
@@ -54,19 +71,22 @@
             font-size: 1.5em;
             ul{
                 margin-bottom: 5%;
+
+
+                li{
+                    box-shadow: 0.35em 0.35em 0 0 $feature;
+                &:hover{
+                    // background-color: $feature;
+                    box-shadow: 0.35em 0.35em 0 0 black;
+                }
+
+                }
             }
         }
 
         
 
 
-    }
-    
-    .copyr{
-        p{
-            font-size: 2em;
-            padding: 0 14% 5%;
-        }
     }
     
     
@@ -81,39 +101,84 @@
             margin: 0 25%;
         }
     }
-    h3{
-        font-size: 4em;
-        padding: 12% 0 7% 0;
-    }
+    // h3{
+    //     font-size: 4em;
+    //     padding: 12% 0 7% 0;
+    // }
     h4{
         font-size: 2.5em;
     }
 
     .mobile-container{
-    .centered{
-        font-size: 4em;
-        .navbar {
+        #myLinks {
 
 
-            .main-nav{
-                top: 12%;
-                a{
-                    font-size: 4vw;
-                }
-            }
-            .logo-wrap{
-                height: 12%;
+            top: 12%;
 
-            }
 
-            .icon{
-               padding: 5vw;     
+            a{
+                font-size: 4vw;
             }
         }
 
-    }   
-}
+        .navbar{
 
+
+            .logo-wrap{
+
+                height: 12%;
+                top: 13%;
+            }
+            .icon{
+                padding: 5vw;
+            }
+        }
+        
+        
+        .centered{
+            font-size: 4em;
+            .navbar {
+
+
+                .main-nav{
+                    top: 12%;
+                    
+                }
+                .logo-wrap{
+                    height: 12%;
+
+                }
+
+                .icon{
+                padding: 5vw;     
+                }
+
+                
+            }
+
+        }   
+    }
+
+
+
+    // projects ------------------------------------------------
+
+    .container1{
+        .centered{
+            font-size: 1em;
+        }
+
+
+    }
+    
+    
+
+
+
+
+
+
+    // blog -------------------------------------------------
     .blog-parts{
 
         h3{
@@ -126,6 +191,10 @@
     .centered {
         p{
             font-size: 3em;
+        }
+
+        h6{
+            font-size: 2em;
         }
     }
     .copyrights-end-m .copyright-f{
@@ -141,27 +210,48 @@
         // flex-direction: row;
         // justify-content: flex-end;
 
+        li{
 
+            line-height: 0.9;
+            
+        }
 
         ul li{
             padding: 0;
         }
 
         ul li a:-webkit-any-link{
-            font-size: 0.5em;
-            padding: 0 0.5em;
+            font-size: 0.75em;
+            padding: 0 0.25em;
+           
+           
+
+            
         
         }
-    .copyright-f{
-        font-size: 2em;
-        padding-left: 5%;
-        display: flex;
-        width: 100%;
-        align-items: flex-start;
+        .copyright-f{
+            font-size: 2em;
+            display: flex;
+            width: 100%;
+            
+            
         
-       
 
-    }
+        }
+
+        .copyrights{
+
+            .copy-copyright{
+                p{
+                    line-height: 3;
+                    padding-left: 0;
+
+
+                }
+            }
+        }
+
+        
 
     }  
     
@@ -178,12 +268,9 @@
 
     .contact-parts{
 
-        margin-top: 10%;
 
 
-        .contactme{
-            font-size: 3em;
-        }
+        
 
         .message-forms{
 
@@ -193,16 +280,20 @@
             input[type=text], select, textarea{
                 font-size: 2em;
                 padding: 2.5%;
+                
             }
 
             input[type=submit]{
                 font-size: 1.75em;
+                height: 5.5vh;
+                box-shadow: 0.3em 0.35em 0 0 $feature;
+                
             }
         }
 
 
         .details{
-            height: 60vh;
+            height: 40vh;
 
             a{
                 font-size: 2em;
@@ -210,6 +301,12 @@
 
             .message{
                 font-size: 2.5em;
+            }
+
+
+            .c-details{
+
+                box-shadow: 0.5em 0.55em 0 0 $feature;
             }
         }
     }
@@ -244,21 +341,32 @@
     // menu 
 
 
-    .mobile-container .navbar .main-nav a{
-        font-size: 2vw;
-    }
+    
+    
+   
 
     .navbar {
-        height: 18%;
+        background-color: rgba(255, 255, 255, 0.50);
+        
+        height: 15%;
         padding: 0;
         .icon{display:none;}
 
         #myLinks{
-            display: flex;
+            display: flex !important;
             flex-direction: row;
             font-size: 1.5vw;
-            line-height: 2;
+            line-height: 3.5;
             font-family: raleway;
+
+            a{
+                font-size: 1em;
+               
+            }
+        }
+
+        .logo-wrap{
+            background: none;
         }
                 
         .logo h1{
@@ -269,14 +377,14 @@
             display:block;
             padding: 0;
             line-height: 50%;
-            .hover{
+            .no-hover{
                 display: none;
             }
             &:hover{
-                .hover{
+                .no-hover{
                     display: block;
                 }
-                .no-hover{
+                .hover{
                     display: none;
                 }
                 
@@ -288,6 +396,8 @@
         .main-nav{
             li{
                 background-color: rgba(255, 255, 255, 0.0);
+                padding: 0.5%;
+                
             }
         }
 
@@ -414,8 +524,24 @@
     // projects ----------------------------------------
 
     .projects{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+        h3{
+            margin-bottom: 5%;
+            font-size: 5vh;
+        }
+
+        .centered{
+            font-size: 1.5em;
+            color: white;
+            p{
+               font-size: 2vw; 
+            }
+        }
         img{
-            width: 50vw;
+            width: 70vw;
+            height: 40vh;
         }
     }
 
@@ -442,7 +568,7 @@
 
         .centered{
             p{
-                font-size: 2vw;
+                font-size: 1vw;
                 width: 100vw;
             }
         }
@@ -488,20 +614,26 @@
         font-size: 2vw;
         line-height: 0;
         bottom: 0;
-        color: $feature;
+        color: black;
         
 
         
     }
     footer{
         height: 7%;
-        background-color: rgba(255, 255, 255, 0.00);
+        background-color: rgba(255, 255, 255, 0.50);
         bottom: 0;
+
+
+        
         .copy-copyright{
             display: none;
         }
 
         .copyrights{
+
+
+
             &:first-child{
                 display: inline-block;
             }
@@ -546,18 +678,20 @@
        
 
         ul li {
-            padding: 0.5em;
+            padding: 0.35em;
             
 
             a:-webkit-any-link{
-                color: $feature;
+                color: black;
                 font-size: 5vh;
+        
 
                 
                 
                 
                 &:hover{
-                    color: black;
+                    
+                    color: $feature;
                 }
             }
         }

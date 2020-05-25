@@ -3,6 +3,19 @@
     top: 10%;
     // background-color: palegreen;
 
+    p{
+        font-size: 1em;
+    }
+
+    .copyr{
+        // text-align: center;
+
+        p{
+
+            font-size: 1.25em;
+        }
+    }
+
     img{
         height: 50vw;
         width: 100%;
@@ -14,9 +27,40 @@
         
         &:hover{
             opacity: 0.65;
+
+            .centered{
+                color: black;
+
+
+            }
+            
             
         }
 
+    }
+    
+    
+    .container{
+        .container1{
+
+       
+
+
+            .centered{
+    
+    
+                color: white;
+            }
+        }
+
+
+
+    }
+    
+
+
+    .last-img{
+        margin-bottom: 10%;
     }
 
 
@@ -30,6 +74,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             font-family: 'raleway', sans-serif;
+            color: white;
 
         }
 

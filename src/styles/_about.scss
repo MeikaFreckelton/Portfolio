@@ -6,10 +6,19 @@
 
 
 #profile {
-    margin-top: 15%;
-    display: flex;
-    flex-wrap: wrap;
+    // margin-top: 15%;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    // display: flex;
+    // flex-wrap: wrap;
     z-index: -1;
+    
+
+    h4{
+        margin: 1% 5%;
+        width: 90%;
+    }
     .pfp{
         margin: 0 20%;
         width: 60%;
@@ -26,34 +35,9 @@
 
     .timeline{
         margin: 5%;
+        width: 90%;
     }
 
 
-    .interests{
-        
-        
-        
-        
-        .row-a{
 
-            display: flex;
-
-            flex-direction: row;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            // flex-wrap: wrap;
-            // padding: 9%;
-
-            
-            height: 20vh;
-            background-color: pink;
-
-            .item-a{
-                width: 50vw;
-                // line-height: ;
-
-            }
-        }
-    }
 }

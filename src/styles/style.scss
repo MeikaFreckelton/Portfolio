@@ -28,19 +28,7 @@ body{
 
 
 
-// main body for contact page
-// main{
-    
-//     position: absolute;
-//     top: 15%;
-//     width: 100%;
-//     height: 50%;
-//     display: flex;
-//     justify-content: flex-start;
-//     flex-direction: column;
-//     align-items: center;
 
-// }
 
 
 
@@ -74,5 +62,14 @@ body{
     &:hover{
         color: $feature;
     }
+}
+
+.feature-icon{
+
+    color: $feature;
+}
+
+.copyr{
+    text-align: center;
 }
   
