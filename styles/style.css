@@ -8,7 +8,7 @@ h1 {
 }
 
 h1:hover {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 h3 {
@@ -19,7 +19,7 @@ h3 {
 }
 
 h3:hover {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 h3, h4, p {
@@ -85,7 +85,7 @@ p {
 }
 
 .navbar #myLinks a:hover {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .navbar .nav-links, .navbar .logo {
@@ -146,7 +146,7 @@ p {
 }
 
 .navbar a.icon:hover {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .active {
@@ -180,10 +180,10 @@ p {
 
 #profile .resume-link {
   text-decoration: none;
-  color: #ff61ba;
+  color: #000dff;
   font-family: 'raleway', sans-serif;
   font-size: 1.25em;
-  border: 2px solid #ff61ba;
+  border: 2px solid #000dff;
   padding: 1.5% 10%;
   -webkit-box-shadow: 0.25em 0.25em 0 0;
           box-shadow: 0.25em 0.25em 0 0;
@@ -222,7 +222,7 @@ p {
 
 #profile ol li::before {
   font-weight: bold;
-  color: #ff61ba;
+  color: #000dff;
   content: counter(list) ".";
   left: -40px;
   position: absolute;
@@ -296,19 +296,19 @@ p {
 }
 
 .contact-parts .message-forms ::-webkit-input-placeholder {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .contact-parts .message-forms :-ms-input-placeholder {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .contact-parts .message-forms ::-ms-input-placeholder {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .contact-parts .message-forms ::placeholder {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .contact-parts .message-forms input[type=text], .contact-parts .message-forms select, .contact-parts .message-forms textarea {
@@ -335,8 +335,8 @@ p {
   font-family: 'raleway', sans-serif;
   font-size: 1em;
   color: white;
-  -webkit-box-shadow: 0.3em 0.3em 0 0 #ff61ba;
-          box-shadow: 0.3em 0.3em 0 0 #ff61ba;
+  -webkit-box-shadow: 0.3em 0.3em 0 0 #000dff;
+          box-shadow: 0.3em 0.3em 0 0 #000dff;
   border: none;
 }
 
@@ -371,8 +371,8 @@ p {
   margin-top: 5%;
   width: 78vw;
   line-height: 1.5;
-  -webkit-box-shadow: 0.3em 0.3em 0 0 #ff61ba;
-          box-shadow: 0.3em 0.3em 0 0 #ff61ba;
+  -webkit-box-shadow: 0.3em 0.3em 0 0 #000dff;
+          box-shadow: 0.3em 0.3em 0 0 #000dff;
 }
 
 footer {
@@ -414,7 +414,7 @@ footer ul li a:-webkit-any-link {
 }
 
 footer ul li a:-webkit-any-link:hover {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 footer .copyrights {
@@ -440,7 +440,7 @@ footer .copyrights {
 }
 
 .footer-icons li:hover {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .footer-icons p {
@@ -559,7 +559,7 @@ footer .copyrights {
 .container1 {
   position: relative;
   text-align: center;
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .container1 img {
@@ -600,7 +600,7 @@ footer .copyrights {
   width: 50vw;
   padding: 0.15em;
   padding-bottom: 0.25em;
-  border: 0.15em solid #ff61ba;
+  border: 0.15em solid #000dff;
 }
 
 .container1:hover img {
@@ -695,7 +695,7 @@ footer .copyrights {
   font-size: 1.2em;
   font-weight: heavy;
   text-align: center;
-  color: #ff61ba;
+  color: #000dff;
 }
 
 #page-wrapper-i {
@@ -721,7 +721,7 @@ footer .copyrights {
 }
 
 #page-wrapper-i .home-content .welcome {
-  background-color: #ff61ba;
+  background-color: #000dff;
   padding: 1em 0.5em;
   -webkit-box-shadow: 0.5em 0.5em 0  0 black;
           box-shadow: 0.5em 0.5em 0  0 black;
@@ -732,7 +732,7 @@ footer .copyrights {
 
 #page-wrapper-i .home-content .welcome-d {
   display: none;
-  background-color: #ff61ba;
+  background-color: #000dff;
   padding: 3em;
   -webkit-box-shadow: 1em 1em 0  0 black;
           box-shadow: 1em 1em 0  0 black;
@@ -793,7 +793,7 @@ footer .copyrights {
 #page-wrapper-i .menu-options ul .odd-item:hover {
   -webkit-box-shadow: 0.35em 0.35em 0 0 black;
           box-shadow: 0.35em 0.35em 0 0 black;
-  background-color: #ff61ba;
+  background-color: #000dff;
 }
 
 #page-wrapper-i .menu-options ul li {
@@ -802,12 +802,12 @@ footer .copyrights {
   background-color: black;
   padding: 1em;
   margin: 3% 0;
-  -webkit-box-shadow: 0.5em 0.5em 0 0 #ff61ba;
-          box-shadow: 0.5em 0.5em 0 0 #ff61ba;
+  -webkit-box-shadow: 0.5em 0.5em 0 0 #000dff;
+          box-shadow: 0.5em 0.5em 0 0 #000dff;
 }
 
 #page-wrapper-i .menu-options ul li:hover {
-  background-color: #ff61ba;
+  background-color: #000dff;
   -webkit-box-shadow: 0.5em 0.5em 0 0 black;
           box-shadow: 0.5em 0.5em 0 0 black;
 }
@@ -915,7 +915,7 @@ footer .copyrights {
   #profile .resume-link {
     font-size: 4vw;
     padding: 2.5% 10% 3.5%;
-    border: 3px solid #ff61ba;
+    border: 3px solid #000dff;
   }
   #profile .resume {
     margin: 17% 0 5% 0;
@@ -937,8 +937,8 @@ footer .copyrights {
     margin-bottom: 5%;
   }
   #page-wrapper-i .menu-options ul li {
-    -webkit-box-shadow: 0.35em 0.35em 0 0 #ff61ba;
-            box-shadow: 0.35em 0.35em 0 0 #ff61ba;
+    -webkit-box-shadow: 0.35em 0.35em 0 0 #000dff;
+            box-shadow: 0.35em 0.35em 0 0 #000dff;
   }
   #page-wrapper-i .menu-options ul li:hover {
     -webkit-box-shadow: 0.35em 0.35em 0 0 black;
@@ -1018,8 +1018,8 @@ footer .copyrights {
   .contact-parts .message-forms input[type=submit] {
     font-size: 1.75em;
     height: 5.5vh;
-    -webkit-box-shadow: 0.3em 0.35em 0 0 #ff61ba;
-            box-shadow: 0.3em 0.35em 0 0 #ff61ba;
+    -webkit-box-shadow: 0.3em 0.35em 0 0 #000dff;
+            box-shadow: 0.3em 0.35em 0 0 #000dff;
   }
   .contact-parts .details {
     height: 40vh;
@@ -1031,11 +1031,11 @@ footer .copyrights {
     font-size: 2.5em;
   }
   .contact-parts .details .c-details {
-    -webkit-box-shadow: 0.5em 0.55em 0 0 #ff61ba;
-            box-shadow: 0.5em 0.55em 0 0 #ff61ba;
+    -webkit-box-shadow: 0.5em 0.55em 0 0 #000dff;
+            box-shadow: 0.5em 0.55em 0 0 #000dff;
   }
   .skills h4 {
-    color: #ff61ba;
+    color: #000dff;
   }
   .skills .skills-row .skill-item img {
     height: 10.5em;
@@ -1371,7 +1371,7 @@ footer .copyrights {
     padding: 0;
   }
   .blog-parts h3:hover {
-    color: #ff61ba;
+    color: #000dff;
   }
   .blog-parts .img-first {
     margin-top: 10%;
@@ -1406,8 +1406,8 @@ footer .copyrights {
        object-fit: cover;
     width: 60vw;
     height: 20vw;
-    -webkit-box-shadow: 6px 7px 0px 0px #ff61ba;
-            box-shadow: 6px 7px 0px 0px #ff61ba;
+    -webkit-box-shadow: 6px 7px 0px 0px #000dff;
+            box-shadow: 6px 7px 0px 0px #000dff;
   }
   .blog-parts .container .container1 .centered h6 {
     width: 100%;
@@ -1463,7 +1463,7 @@ footer .copyrights {
     font-size: 5vh;
   }
   footer ul li a:-webkit-any-link:hover {
-    color: #ff61ba;
+    color: #000dff;
   }
   .contact-parts {
     top: 20%;
@@ -1545,7 +1545,7 @@ body {
 }
 
 .logo h1:hover {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .feature-icon {
@@ -1553,7 +1553,7 @@ body {
 }
 
 h4 {
-  color: #ff61ba;
+  color: #000dff;
 }
 
 .copyr {
