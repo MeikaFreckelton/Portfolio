@@ -397,6 +397,13 @@
         
     }
 
+
+
+    .blog-page{
+
+        top: 13%;
+    }
+
     
     
 }
@@ -420,6 +427,41 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+
+
+
+    .blog-page{
+        
+
+        top: 20%;
+        img{
+            object-fit: cover;
+            height: 50vh
+        }
+
+        .title{
+
+            p{
+
+                font-size: 2vw;
+            }
+
+
+        }
+
+        h4{
+            font-size: 5vw;
+        }
+
+        p{
+            font-size: 2vw;
+        }
+
+
+
+
+    }
     
     // ---------------------------------------
 

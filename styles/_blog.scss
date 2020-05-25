@@ -108,3 +108,43 @@
     
     }
 }
+
+
+
+// ---------------------------------
+
+.blog-page{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+    img{
+        width: 100%;
+    }
+
+    .title{
+        margin: 5%;
+
+        p{
+            text-decoration: underline;
+            font-size: 5vw;
+        }
+
+
+
+    }
+
+    h4{
+        font-size: 10vw;
+    }
+
+    p{
+        margin-bottom: 5%;
+        font-size: 4vw;
+    }
+
+    
+}
