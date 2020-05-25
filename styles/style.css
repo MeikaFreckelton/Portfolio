@@ -1303,7 +1303,7 @@ p, h3, h4, h6, a {
         flex-wrap: wrap;
   }
   #page-wrapper-i .menu-options ul li {
-    width: 32%;
+    width: 15%;
   }
   #page-wrapper-i .menu-options ul .odd-item {
     display: inline-block;
