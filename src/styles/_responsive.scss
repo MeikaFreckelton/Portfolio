@@ -134,7 +134,6 @@
                 li{
                     box-shadow: 0.35em 0.35em 0 0 $feature;
                 &:hover{
-                    // background-color: $feature;
                     box-shadow: 0.35em 0.35em 0 0 black;
                 }
 
@@ -222,12 +221,6 @@
 
 
     }
-    
-    
-
-
-
-
 
 
     // blog -------------------------------------------------
@@ -258,9 +251,6 @@
 
     // footer ------------------------------------------
     footer {
-        // 
-        // flex-direction: row;
-        // justify-content: flex-end;
 
         li{
 
@@ -319,11 +309,6 @@
     // contact page
 
     .contact-parts{
-
-
-
-        
-
         .message-forms{
 
 
@@ -516,8 +501,6 @@
 
         .column-1{
             width: 20vw;
-            // margin: 0;
-            // padding: 0;
 
             
         }
@@ -585,12 +568,6 @@
                     font-size: 3vw;
                 }
 
-
-
-                // .skill-img{
-
-
-                // }
             }
         }
 
@@ -598,25 +575,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     // menu 
-
-
-    
-    
-   
 
     .navbar {
         background-color: rgba(255, 255, 255, 0.50);
@@ -644,7 +603,6 @@
                 
         .logo h1{
             font-size: 2vw;
-            // padding: 0% 0 10% 0;
         }
         .desktop-logo{
             display:block;
@@ -707,8 +665,6 @@
                 justify-content: center;
                 align-items: center;
 
-
-
                 .landing-contents{
                     padding-top: 0%;
                     
@@ -722,7 +678,6 @@
             .desktop-logos{
                 #PinkLogo{
                     width: 60vh;
-                    // height: 50vh;
                 }
                 #BlackLogo{
                     width: 60vh;
@@ -743,10 +698,6 @@
 
                    
                 }
-
-                
-
-                
 
 
                 .odd-item{
@@ -769,18 +720,6 @@
     .copyr{
         display: none;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     // about page ----------------------------------------------
@@ -885,11 +824,6 @@
 
         .container{ 
             top: 20%;
-
-            
-            
-
-
 
             .container1{
                 padding: 1%;

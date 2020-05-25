@@ -1,11 +1,8 @@
 #page-wrapper-i{
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
     text-align: center;
-
-
 
     .home-content{
     
@@ -48,7 +45,6 @@
             }
             #PinkLogo{
                 width: 90%; 
-                // display: none; 
             }
 
             &:hover{
@@ -98,24 +94,13 @@
                 &:hover{
                     background-color: $feature;
                     box-shadow: 0.5em 0.5em 0 0 black;
-                }
-
-
-
-            
-                // height: 5vh;
-
-
-
-                
+                } 
                 
                 a{
                     text-decoration: none;
                     color: white;
                     font-family: 'raleway', sans-serif;
-                    font-size: 1.5em;
-                    
-                    
+                    font-size: 1.5em;      
                 }
             }
     }   }
