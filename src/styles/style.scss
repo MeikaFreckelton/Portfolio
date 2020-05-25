@@ -5,6 +5,7 @@
 @import 'footer';
 @import 'projects';
 @import 'blog';
+@import 'skills';
 
 @import 'index';
 @import 'responsive';
@@ -65,11 +66,15 @@ body{
 }
 
 .feature-icon{
-
+    color: black;
+    
+}
+h4{
     color: $feature;
 }
 
 .copyr{
     text-align: center;
+    margin-top: 12%;
 }
   

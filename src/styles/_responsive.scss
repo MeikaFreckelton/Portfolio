@@ -38,6 +38,64 @@
         }
         
     }
+
+    // about me ------------------------------------------
+
+    #profile{
+
+        .pfp{
+
+            margin: 0 6% 0;
+        
+            width: 40vw;
+
+        }
+
+
+        .column-1{
+            display: flex;
+            flex-direction: column;
+            width: 50vw;
+            justify-content: center;
+        }
+
+
+        .column-2{
+            flex-direction: column;
+          
+
+
+            .list-bg{
+                background-color: #F2F2F2;
+                padding: 1%
+            }
+        }
+
+        .tab-columns{
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+
+        .resume-link{
+            font-size: 4vw;
+            padding: 2.5% 10% 3.5%;
+            
+            border: 3px solid $feature;
+
+            
+        }
+
+
+        .resume{
+
+            margin: 17% 0 5% 0;
+             
+        }
+    }
+
     
     // index styling -----------------------------------------
     
@@ -94,13 +152,7 @@
     
     
     .mainnav li{font-size: 5vw;}
-    #profile {
-        
-        img{
-            width: 50%;
-            margin: 0 25%;
-        }
-    }
+    
     // h3{
     //     font-size: 4em;
     //     padding: 12% 0 7% 0;
@@ -312,6 +364,54 @@
     }
 
 
+    // skills ------------------------
+    .skills{
+
+
+        h4{
+            color: $feature;
+        }
+        
+
+
+
+        .skills-row{
+
+
+            .skill-item{
+
+                img{
+                    height: 10.5em;
+                    width: auto;
+                    margin: 0;
+                }
+
+                .img-f{
+
+                    height: 10em;
+                    margin: 0;
+                    
+
+                }
+
+                p{
+                    font-size: 4vw;
+                }
+
+                .rating{
+
+                    font-size: 5vw;
+                }
+
+
+
+            }
+        }
+
+
+        
+    }
+
     
     
 }
@@ -337,6 +437,179 @@
     .col-12 {width: 100%;}
     
     // ---------------------------------------
+
+    // about me ----------------------------
+
+    .projects-a{
+
+        text-align: center;
+        .container{
+            display: flex;
+            flex-direction: column;
+            // margin-left: 30%;
+            
+
+            justify-content: center;
+        }
+
+        .container1{
+            text-align: center;
+        }
+
+        .projects-rows{
+
+            display: flex;
+            flex-direction: row;
+
+
+            
+        }
+
+        .f-img{
+            margin: 0;
+        }
+
+        .container img{
+            height: 30vh;
+
+
+        } 
+
+    }
+
+    
+
+
+
+
+
+    #profile{
+        top: 15%;
+
+        h4{
+            margin-bottom: 5%;
+        }
+
+        .pfp{
+            width: 25vw;
+            margin: 10% 5%;
+        }
+        .tab-columns{
+            width: 60vw;
+            justify-content: space-between;
+            margin-bottom: 5%;
+        }
+
+        .resume{
+            padding: 0 0 0 30%;
+
+
+
+
+        }
+
+        .resume-link{
+            font-size: 2vw;
+            
+
+        }
+
+        .column-1{
+            width: 20vw;
+            // margin: 0;
+            // padding: 0;
+
+            
+        }
+
+        .column-2{
+
+            width: 28vw;
+            
+        }
+
+        ol li{
+            font-size: 1.5vw;
+            line-height: 2;
+        }
+
+
+
+    }
+
+
+    .skills{
+
+        
+        
+
+
+
+
+        #row-last{
+
+
+            height: 47vh;
+        }
+
+        .skills-row{
+
+            justify-content: space-around;
+            margin: 0 auto;
+            
+
+
+            width: 100%;
+            height: 40vh;
+            margin: 0;
+            padding-top: 4%;
+
+
+            .skill-item{
+
+
+                
+
+                margin: 0;
+
+
+                p{
+
+                    font-size: 3vw;
+                    padding: 2%;
+                }
+
+
+                .rating{
+
+                    font-size: 3vw;
+                }
+
+
+
+                // .skill-img{
+
+
+                // }
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // menu 
 
@@ -422,6 +695,11 @@
 
             .welcome-d{
                 display: inline-block;
+                margin-bottom: 10%;
+                
+                h4{
+                    color: white;
+                }
             }
 
             .landing{
@@ -433,16 +711,21 @@
 
                 .landing-contents{
                     padding-top: 0%;
+                    
+                    h4{
+                        color: black;
+                    }
 
                 }
             }
 
             .desktop-logos{
                 #PinkLogo{
-                    width: 100%;
+                    width: 60vh;
+                    // height: 50vh;
                 }
                 #BlackLogo{
-                    width: 100%;
+                    width: 60vh;
                 }
             }
         }
@@ -456,8 +739,9 @@
                 flex-wrap: wrap;
 
                 li{
-                    margin: 3em;
-                    padding: 1em;
+                    width: 32%;
+
+                   
                 }
 
                 
@@ -468,12 +752,10 @@
                 .odd-item{
                     display: inline-block;
                     a{
-                        font-size: 1.25em;
-                        color: black
+                        font-size: 1.3em;
+                        line-height: 1.5;
                     }
-                    background-color: white;
-                    box-shadow: 0.5em 0.5em 0 0 black;
-                    border: 0.45em solid $feature
+                    
                 }
             }
 
@@ -514,11 +796,19 @@
         
     }
     .container{margin: 0 5em}
-    #profile{
-        img{
-            width: 65%
-        }
+
+    .skills #design{
+        padding-left: 18vw;
+        
     }
+
+    
+
+    #profile h4{
+        font-size: 2.5vw;
+        
+    }
+    
 
 
     // projects ----------------------------------------
@@ -552,6 +842,8 @@
     .blog-parts{
         max-width: 100%;
         margin: 0 auto;
+        top: 20%;
+        
         // padding-bottom: 5%;
 
         h3{
@@ -563,13 +855,29 @@
         }
 
         .img-first{
-            margin-top: 30%;
+            margin-top: 10%;
         }
 
         .centered{
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+            color: white;
             p{
-                font-size: 1vw;
-                width: 100vw;
+                font-size: 2vw;
+                
+            }
+
+            h6{
+
+                border: none;
+                margin: 0;
+                text-align: center;
+                color: white;
             }
         }
 
@@ -592,6 +900,20 @@
                     height: 20vw;
                     box-shadow:6px 7px 0px 0px $feature;
 
+                    
+
+                }
+
+
+                .centered{
+
+                    h6{
+
+                        width: 100%;
+                        color: white;
+                        text-decoration: underline;
+
+                    }
                 }
                 
 
@@ -704,7 +1026,7 @@
 
 
     .contact-parts{
-        margin-top: 14%;
+        top: 20%;
 
 
         .contactme{

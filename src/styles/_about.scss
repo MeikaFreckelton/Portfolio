@@ -1,17 +1,14 @@
-// .pfp{
-//     // max-width: 100%;
-//     border-radius: 300%;
-// }
+
 
 
 
 #profile {
-    // margin-top: 15%;
     position: absolute;
     top: 10%;
     width: 100%;
-    // display: flex;
+    display: flex;
     // flex-wrap: wrap;
+    flex-direction: column;
     z-index: -1;
     
 
@@ -28,16 +25,104 @@
 
     }
 
-    // h4{
-    //     // margin: 2% 5%;
-    //     padding: 9%
-    // }
+    .resume-link{
+        text-decoration: none;
+        color: $feature;
+        font-family: 'raleway', sans-serif;
+        font-size: 1.25em;
+        border: 2px solid $feature;
+        padding: 1.5% 10%;
+        box-shadow: 0.25em 0.25em 0 0;
 
-    .timeline{
-        margin: 5%;
-        width: 90%;
+
+        &:hover{
+            color: black;
+            border: 2px solid black;
+            box-shadow: 0.25em 0.25em 0 0 black; 
+
+            
+        }
+        
+    }
+
+
+    .past-edu{
+        margin-bottom: 5%;
+    }
+
+    .resume{
+        text-align: center;
+        margin: 6% 0 8%;
+        
+        
+
     }
 
 
 
+    ol{
+        font-family: 'raleway', sans-serif;
+        margin: 3% 6% 8% 15%;
+        list-style: none;
+        counter-reset: my-awesome-counter;
+        line-height: 1.5;
+        font-size: 1.45em;
+
+        li{
+            counter-increment: list;
+            list-style-type: none;
+            position: relative;
+
+            &::before {
+
+                font-weight: bold;
+                color: $feature;
+                content: counter(list) ".";
+                left: -40px;
+                position: absolute;
+                text-align: right;
+                width: 26px;
+            }
+              
+
+            
+        }
+    }
+    .timeline{
+        margin: 5%;
+        width: 90%;
+        
+       
+    }
+
+    .container-a{
+        background-color: #F2F2F2;
+        margin: 0 0 7%;
+    }
+
+
+
+
+
+
+}
+
+
+.projects-a{
+
+    margin: 6% 0 0;
+
+
+    .f-img{
+        margin-top: 5%;
+    }
+    
+    
+    .container{
+        img{
+            height: 20vh;
+        }
+
+    }
+    
 }

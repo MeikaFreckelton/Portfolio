@@ -81,9 +81,10 @@
                 display: none;
 
                 &:hover{
-                    box-shadow: 0.5em 0.5em 0 0 $feature;
-                    border: 0.45em solid black;
-                    background-color: white;
+                    box-shadow: 0.35em 0.35em 0 0 black;
+
+                    background-color: $feature;
+
                 }
             }
         
