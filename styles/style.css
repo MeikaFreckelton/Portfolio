@@ -1,5 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/2c6559d94a7fa38ce73eaa827ca22ce2?family=Lust+Script+Display);
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Comfortaa:wght@300;400;500;600;700&family=Didact+Gothic&family=Dosis:wght@200;300;400;500;600;700;800&family=Maven+Pro:wght@400;500&family=Poppins:wght@100;200;300;400;500;600&family=Quicksand:wght@300;400;500;515;600;700&family=Raleway:wght@100;200;300;400;500&family=Teko:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 h1 {
   font-family: lust-script-display, sans-serif;
   font-style: normal;
@@ -696,6 +697,10 @@ footer .copyrights {
   font-weight: heavy;
   text-align: center;
   color: #000dff;
+}
+
+p, h3, h4, h6, a {
+  font-family: 'Titillium Web', sans-serif !important;
 }
 
 #page-wrapper-i {
