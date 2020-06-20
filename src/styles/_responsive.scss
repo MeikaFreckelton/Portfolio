@@ -22,6 +22,54 @@
     .col-s-12 {width: 100%;}
     .mainnav li{font-size: 9vw;}
 
+    // fonts
+
+
+
+
+    // index
+
+
+
+
+    // about
+
+
+
+
+
+    // skills
+
+
+
+
+    // projects
+
+
+
+    // blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     h3{
         font-size: 3.75em;
     }
@@ -180,34 +228,34 @@
                 height: 12%;
                 top: 13%;
             }
-            .icon{
+            .hamburger-icon{
                 padding: 5vw;
             }
         }
         
         
-        .centered{
-            font-size: 4em;
-            .navbar {
+        // .centered{
+        //     font-size: 4em;
+        //     .navbar {
 
 
-                .main-nav{
-                    top: 12%;
+        //         .main-nav{
+        //             top: 12%;
                     
-                }
-                .logo-wrap{
-                    height: 12%;
+        //         }
+        //         .logo-wrap{
+        //             height: 12%;
 
-                }
+        //         }
 
-                .icon{
-                padding: 5vw;     
-                }
+        //         .icon{
+        //         padding: 5vw;     
+        //         }
 
                 
-            }
+        //     }
 
-        }   
+        // }   
     }
 
 
@@ -397,6 +445,13 @@
         
     }
 
+
+
+    .blog-page{
+
+        top: 13%;
+    }
+
     
     
 }
@@ -420,6 +475,48 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+
+
+
+    .copyr{
+        display: inline-block;
+    }
+
+
+
+
+    .blog-page{
+        
+
+        top: 20%;
+        img{
+            object-fit: cover;
+            height: 50vh
+        }
+
+        .title{
+
+            p{
+
+                font-size: 2vw;
+            }
+
+
+        }
+
+        h4{
+            font-size: 5vw;
+        }
+
+        p{
+            font-size: 2vw;
+        }
+
+
+
+
+    }
     
     // ---------------------------------------
 

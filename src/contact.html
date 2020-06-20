@@ -14,8 +14,8 @@
         <nav class="navbar" id="mytopnav">
             <div class="logo-wrap">
 
-                <a href="#" class="logo mobile-logo m-no-hover"><img src="SVG/mbile-pink.svg"></a>
-                <a href="#" class="logo mobile-logo m-hover"><img src="SVG/mbile-black.svg"></a>
+                <a href="#" class="logo mobile-logo m-no-hover"><img src="SVG/mbile-pink.svg" alt="logo"></a>
+                <a href="#" class="logo mobile-logo m-hover"><img src="SVG/mbile-black.svg" alt="logo"></a>
             </div>
                 <div class="menu-wrap">
                 <ul class="main-nav" id="myLinks">
@@ -29,8 +29,8 @@
                         <a href="about.html#to-skills" class="nav-links">Skills</a>
                     </li>
                     <li class="desktop-logo">
-                        <a href="#" class="logo no-hover"><img src="SVG/desktop-pink.svg"</a>
-                        <a href="#" class="logo hover"><img src="SVG/desktop-black.svg"</a>
+                        <a href="#" class="logo no-hover"><img src="SVG/desktop-pink.svg" alt="logo"></a>
+                        <a href="#" class="logo hover"><img src="SVG/desktop-black.svg" alt="logo"></a>
 
                     </li>
 
@@ -46,7 +46,7 @@
                     </li>
                 </ul>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="hamburger-icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
             
@@ -60,10 +60,16 @@
             <!-- <h4 class="message">Leave me a message:</h4> -->
         
             <form action="/action_page.php" class="forms">
-                <input type="text" id="name" name="firstname" placeholder="your name...">
-                <input type="text" id="email" name="email" placeholder="your email...">
-                <textarea placeholder="your message..."></textarea>
-                <input type="submit" value="submit">
+                <label><p>Name:</p>
+                    <input type="text" id="name" name="firstname" placeholder="your name here...">
+                </label>
+                <label><p>Email:</p>
+                    <input type="text" id="email" name="email" placeholder="your email here...">
+                </label>
+                <label><p>Message:</p>
+                    <textarea placeholder="your message here..."></textarea>
+                </label>
+                    <input type="submit" value="submit">
             </form>
         </div>
     

@@ -9,13 +9,16 @@
     
     display: flex;
     flex-direction: column;
-    // background-color:;
     justify-content: center;
     align-items: center;
-    // margin-top: 20%;
     width: 100%;
 
-
+    label{
+        p{
+            // display: none;
+            padding: 4% 0 0;
+        }
+    }
 
     .copyr{
         width: 100%;
